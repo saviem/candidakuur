@@ -1,0 +1,2778 @@
+[
+  {
+    "slug": "speltzuurdesembrood",
+    "name": "Speltzuurdesembrood",
+    "category": "brood-en-granen",
+    "status": "voorwaardelijk",
+    "why": "Spelt bevat gluten, maar natuurlijke gisting bewerkt die vooraf. Dat geeft minder problemen in het maag-darmkanaal. Bij glutenintolerantie wordt speltnatuurdesem vaak toegelaten; bij echte glutenallergie alleen glutenvrij.",
+    "aliases": [
+      "speltnatuurdesembrood",
+      "desembrood",
+      "zuurdesem",
+      "speltbrood"
+    ],
+    "conditions": "Toegestaan bij glutenintolerantie als natuurdesem. Bij glutenallergie alleen gecertificeerd glutenvrije producten.",
+    "access": "public"
+  },
+  {
+    "slug": "roggebrood",
+    "name": "Roggebrood",
+    "category": "brood-en-granen",
+    "status": "beperkt",
+    "why": "Soms toegestaan in de boodschappenlijst. Rogge bevat gluten; gebruik het spaarzaam en bij voorkeur als desemvariant.",
+    "aliases": [
+      "rogge"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "natuurdesem",
+    "name": "Natuurdesem / natuurlijk getrokken gist",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Natuurlijke gisting trekt gluten uit elkaar voordat je eet. Dat ontlast amylase en protease in een belaste darm.",
+    "aliases": [
+      "desem",
+      "natuurlijk getrokken gisten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "mais-meel",
+    "name": "Maïsmeel",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Maïs bevat geen gluten (gliadine) zoals tarwe. Het is een van de weinige granen die tijdens het dieet als glutenvrij alternatief geldt.",
+    "aliases": [
+      "mais",
+      "maïs",
+      "cornmeal"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "teff",
+    "name": "Teffmeel",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Teff is glutenvrij en wordt genoemd als alternatief meel tijdens het dieet.",
+    "aliases": [
+      "teffmeel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "johannisbroodmeel",
+    "name": "Johannisbroodpitmeel",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Glutenvrij meel, ook te gebruiken als bindmiddel.",
+    "aliases": [
+      "johannisboompitmeel",
+      "carobmeel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "guarpitmeel",
+    "name": "Guarpitmeel",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Glutenvrij meel, ook als bindmiddel toegestaan.",
+    "aliases": [
+      "guar"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "amarant",
+    "name": "Amarant",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Amarant en amarantmeel zijn glutenvrij. Samen met chia een broodalternatief.",
+    "aliases": [
+      "amarantmeel",
+      "amaranth"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "boekweit",
+    "name": "Boekweitmeel",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Boekweit bevat geen tarwegluten. In de samenvatting is boekweit (naast maïs) een van de uitzonderingen op ‘alle graansoorten’.",
+    "aliases": [
+      "boekweitmeel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "chiazaad",
+    "name": "Chiazaad",
+    "category": "brood-en-granen",
+    "status": "toegestaan",
+    "why": "Zaden bevatten geen gluten. Chia en amarant zijn een alternatief voor brood.",
+    "aliases": [
+      "chia"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "glutenvrije-producten",
+    "name": "Glutenvrije producten",
+    "category": "brood-en-granen",
+    "status": "voorwaardelijk",
+    "why": "Zogenaamde glutenvrije melen zijn bewerkt of bevatten avenine, dat op gliadine lijkt maar beter afbreekt. Alles hangt af van protease uit de alvleesklier. Bij geconstateerde glutenintolerantie of -allergie alleen glutenvrij gebruiken.",
+    "aliases": [
+      "glutenvrij"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "witte-rijst-gluten",
+    "name": "Witte rijst",
+    "category": "brood-en-granen",
+    "status": "beperkt",
+    "why": "Witte rijst bevat ook gluten, maar laag, en wordt tijdens het dieet meestal goed verteerd. Als rijstgerecht: kies pandan, basmati, surinaams, wild of rood — geen zilvervlies of kleefrijst.",
+    "aliases": [
+      "rijst"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tarwe",
+    "name": "Tarwe en gewone graansoorten",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Alle graansoorten bevatten gluten (gliadine). Korte machinale kneding (één keer kneden, één keer rijzen) laat gluten plakken. Het immuunsysteem in de darm maakt dan fouten: eerst intolerantie, later allergie.",
+    "aliases": [
+      "graan",
+      "granen",
+      "tarwemeel",
+      "volkoren tarwe"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "gewoon-brood",
+    "name": "Gewoon brood",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Gistculturen zijn niet bevorderlijk bij dysbiose. Er zitten broodveredelaars en weekmakers (onder meer van varkensvet) in. Gluten worden onvoldoende uit elkaar geslagen. Een opgeblazen gevoel na deegwaren is een sein dat de vertering hapert.",
+    "aliases": [
+      "brood",
+      "witbrood",
+      "bruinbrood",
+      "pistolet"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "witmeel",
+    "name": "Witmeel",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Alle witmelen zijn tijdens het dieet niet toegestaan: bewerkt, vaak met suiker, slecht voor een belaste darm.",
+    "aliases": [
+      "bloem",
+      "patentbloem"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "cake",
+    "name": "Cake",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Deegwaar met suiker en witmeel. Suiker voedt candida; gluten belasten de darm.",
+    "aliases": [
+      "gebak"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "afbakdeegwaren",
+    "name": "Afbakdeegwaren",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Industrieel deeg met gist, vaak suiker en hulpstoffen. Niet tijdens de kuur.",
+    "aliases": [
+      "afbakbrood",
+      "croissants"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "koeken",
+    "name": "Koeken",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Suiker, witmeel en vaak boter of plantaardige transvetten. Past niet bij een suikervrij candidadieet.",
+    "aliases": [
+      "koek",
+      "koekjes",
+      "biscuit"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "taart",
+    "name": "Taart",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Deegwaren die suikers bevatten zijn niet toegestaan.",
+    "aliases": [
+      "vlaai"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pasta-wit",
+    "name": "Witte pasta",
+    "category": "brood-en-granen",
+    "status": "niet_toegestaan",
+    "why": "Witte pasta’s zijn niet toegestaan. Kies volkoren, of glutenvrij bij glutenproblemen.",
+    "aliases": [
+      "spaghetti",
+      "macaroni"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zelfgemaakt-vleesbeleg",
+    "name": "Zelfgemaakte vlees- en kipproducten",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Zelf grillen of bakken houdt hulpstoffen, suiker en rookzout buiten. Kant-en-klaar beleg is vaak gepekeld of gezoet.",
+    "aliases": [
+      "kipfilet beleg",
+      "grillkip"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "rundrookvlees",
+    "name": "Rundrookvlees",
+    "category": "broodbeleg",
+    "status": "beperkt",
+    "why": "Rookvlees van rund mag beperkt. Overige gerookte, gepekelde of ingeblikte vleeswaren niet, vanwege conservering en histamine.",
+    "aliases": [
+      "rookvlees"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "rosbief",
+    "name": "Rosbief",
+    "category": "broodbeleg",
+    "status": "beperkt",
+    "why": "Rosbief mag in mate als beleg, mits puur rund en niet suikergekruid.",
+    "aliases": [
+      "roastbeef"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "vegetarisch-beleg",
+    "name": "Vegetarisch broodbeleg",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Plantaardig beleg is toegestaan, mits zonder suiker en zonder schimmeleiwit (geen tempé of quorn). Let op gluten in veel vleesvervangers.",
+    "aliases": [
+      "vega beleg"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zonnebloempasta",
+    "name": "Zonnebloempasta",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Puur zonnebloempittenpuree zonder suiker. Vast beleg tijdens de kuur.",
+    "aliases": [
+      "zonnebloempitpasta"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tahin",
+    "name": "Tahin / sesampasta",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Ongezoete sesampasta. Gomasio (sesam met zout) staat ook op de toegestane lijst.",
+    "aliases": [
+      "sesampasta",
+      "tahini"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "gomasio",
+    "name": "Gomasio",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Geroosterde sesam met zeezout. Hartig, zonder suiker.",
+    "aliases": [
+      "gomashio"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "baba-ganoesh",
+    "name": "Baba ganoesh (Maza)",
+    "category": "broodbeleg",
+    "status": "toegestaan",
+    "why": "Gegrilde auberginesalade, in de bron genoemd als Maza. Aubergine is toegestaan; let op dat er geen tahin mét citroenazijn of suiker in zit.",
+    "aliases": [
+      "baba ganoush",
+      "baba anoesh"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "cashewnootpasta",
+    "name": "Cashewnootpasta",
+    "category": "broodbeleg",
+    "status": "beperkt",
+    "why": "Af en toe. Cashew mag in mate; noten blijven aflatoxinegevoelig en oliehoudend.",
+    "aliases": [
+      "cashewpasta"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "jam",
+    "name": "Jam en marmelade",
+    "category": "broodbeleg",
+    "status": "niet_toegestaan",
+    "why": "Zoete producten: suiker en vaak fruit. Candida voedt zich met snelle suikers.",
+    "aliases": [
+      "marmelade",
+      "confituur"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "hagelslag",
+    "name": "Hagelslag en zoet beleg",
+    "category": "broodbeleg",
+    "status": "niet_toegestaan",
+    "why": "Alles wat zoet is, is tijdens de kuur niet toegestaan.",
+    "aliases": [
+      "chocoladehagel",
+      "vlokken",
+      "pindakaas zoet"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "sojayoghurt",
+    "name": "Ongezoete sojayoghurt",
+    "category": "zuivel",
+    "status": "toegestaan",
+    "why": "Plantaardig, ongezoet. Geen koemelk-eiwit, minder verslijming dan zuivel.",
+    "aliases": [
+      "soja yoghurt",
+      "sojayoghurt"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "haveryoghurt",
+    "name": "Ongezoete haveryoghurt",
+    "category": "zuivel",
+    "status": "toegestaan",
+    "why": "Ongezoete havervariant mag als zuivelvervanger.",
+    "aliases": [
+      "haver yoghurt"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "sojamelk",
+    "name": "Ongezoete sojamelk",
+    "category": "zuivel",
+    "status": "toegestaan",
+    "why": "Ongezoet. Soja levert ook calcium, zonder de verslijming van koemelk.",
+    "aliases": [
+      "sojadrank"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "haverdrank",
+    "name": "Haverdrank naturel",
+    "category": "zuivel",
+    "status": "toegestaan",
+    "why": "Oat drink naturel, in de bron genoemd van Lima. Geen zoete of gearomatiseerde varianten.",
+    "aliases": [
+      "havermelk",
+      "oat drink",
+      "lima haver"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "koemelk",
+    "name": "Melk van koe, geit of schaap",
+    "category": "zuivel",
+    "status": "niet_toegestaan",
+    "why": "Melk is vast voedsel: vet en eiwit eerst verteren. Calcium zit vast aan fosfor. Verslijming belemmert opname en IGA. Bij bronchitis, astma, bijholte- of oorontsteking, darmontsteking, cysten en allergieën zuivel sterk minderen of weglaten.",
+    "aliases": [
+      "melk",
+      "halfvolle melk",
+      "geitenmelk",
+      "schapenmelk"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kaas",
+    "name": "Kaas",
+    "category": "zuivel",
+    "status": "niet_toegestaan",
+    "why": "Kaas is een melkproduct. Zelfde verslijming en eiwitbelasting. Niet tijdens de drie weken, tenzij een latere testdag in het roulatiedieet.",
+    "aliases": [
+      "jonge kaas",
+      "oude kaas",
+      "geitenkaas",
+      "feta"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "yoghurt-zuivel",
+    "name": "Yoghurt, kwark en overige zuivel",
+    "category": "zuivel",
+    "status": "niet_toegestaan",
+    "why": "Alle melkproducten van koe, geit en schaap vallen af. Gefermenteerde zuivel is darmvriendelijker, maar pas na het dieet.",
+    "aliases": [
+      "yoghurt",
+      "kwark",
+      "karnemelk",
+      "vla"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "huttenkase",
+    "name": "Hüttenkäse / cottage cheese",
+    "category": "zuivel",
+    "status": "voorwaardelijk",
+    "why": "Tweede week van het dieet: beperkt, en alleen als er géén zuivelintolerantie is gemeten. Anders weglaten tot het herhalingsconsult.",
+    "aliases": [
+      "cottage cheese",
+      "hüttenkäse",
+      "huttenkase"
+    ],
+    "conditions": "Alleen week 2, beperkt, en niet bij zuivelintolerantie.",
+    "access": "public"
+  },
+  {
+    "slug": "biogarde",
+    "name": "Rechtsdraaiende biogarde naturel",
+    "category": "zuivel",
+    "status": "voorwaardelijk",
+    "why": "Derde week, beperkt, niet bij zuivelintolerantie. Rechtsdraaiende melkzuurbacteriën zijn vriendelijker, maar het blijft zuivel.",
+    "aliases": [
+      "biogarde naturel"
+    ],
+    "conditions": "Alleen week 3, niet bij zuivelintolerantie.",
+    "access": "public"
+  },
+  {
+    "slug": "yakult",
+    "name": "Yakult, Optimel en drinkyoghurt",
+    "category": "zuivel",
+    "status": "niet_toegestaan",
+    "why": "Je krijgt niet de levende bacteriën binnen die je denkt, maar de zuren die bacteriën in melk- of sojaproducten hebben gemaakt. Plus suiker. Darmflora bouw je ná de kuur op met een kikkererwt-gebaseerd probioticum.",
+    "aliases": [
+      "optimel",
+      "drinkyoghurt",
+      "actimel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "eieren",
+    "name": "Biologische eieren",
+    "category": "eieren",
+    "status": "beperkt",
+    "why": "Mag in mate. Laten staan bij ei-intolerantie of -allergie. Pluimveevoeding bevat vaak antibiotica, ook bij scharrel. In veel producten zit ei als bindmiddel.",
+    "aliases": [
+      "ei",
+      "roerei",
+      "gekookt ei",
+      "omelet"
+    ],
+    "conditions": "Niet bij geconstateerde ei-intolerantie of -allergie.",
+    "access": "public"
+  },
+  {
+    "slug": "zonnebloemolie",
+    "name": "Zonnebloemolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Plantaardige olie op de toegestane lijst. Gebruik koud of licht verwarmd, niet om uit te frituren.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "maisolie",
+    "name": "Maisolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Toegestane plantaardige olie.",
+    "aliases": [
+      "maïsolie"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "sesamolie",
+    "name": "Sesamolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Past bij tahin en Aziatische bereidingen in het voorbeeldmenu.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "lijnzaadolie",
+    "name": "Lijnzaadolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Toegestaan. Bij moeizame ontlasting tijdens de kuur kan lijnzaad/olie helpen.",
+    "aliases": [
+      "lijnzaad",
+      "lijnolie"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "saffloerolie",
+    "name": "Saffloerolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Toegestane plantaardige olie.",
+    "aliases": [
+      "distelolie"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kokosolie",
+    "name": "Kokosolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Plantaardig vet, genoemd op de toegestane oliënlijst.",
+    "aliases": [
+      "kokosvet"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pompoenolie",
+    "name": "Pompoenolie",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Toegestane olie.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "margarine-plantaardig",
+    "name": "Plantaardige margarine (Natufood, Wessana, Eden)",
+    "category": "vetten-en-olien",
+    "status": "toegestaan",
+    "why": "Natufood of andere plantaardige margarine. Wessana en Eden worden in de samenvatting met name genoemd.",
+    "aliases": [
+      "natufood",
+      "wessana",
+      "eden margarine",
+      "margarine"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "olijfolie",
+    "name": "Olijfolie",
+    "category": "vetten-en-olien",
+    "status": "voorwaardelijk",
+    "why": "In de dieettabel toegestaan, vooral voor wie van oorsprong met olijfolie is opgevoed (Griekenland, Italië, Turkije, Marokko). In de boodschappensamenvatting afgeraden vanwege kruisreactie met histaminehoudende producten.",
+    "aliases": [
+      "olive oil"
+    ],
+    "conditions": "Blijven gebruiken als het bij je eetcultuur hoort. Anders liever laten staan vanwege histamine.",
+    "access": "public"
+  },
+  {
+    "slug": "amandelboter",
+    "name": "Amandelboter",
+    "category": "vetten-en-olien",
+    "status": "voorwaardelijk",
+    "why": "Staat bij toegestane oliën/boter, terwijl noten elders beperkt of afgeraden worden vanwege aflatoxine en oliën.",
+    "aliases": [
+      "amandelpasta"
+    ],
+    "conditions": "In de olielijst toegestaan; noten blijven gevoelig voor schimmeltoxinen — gebruik spaarzaam.",
+    "access": "public"
+  },
+  {
+    "slug": "walnootboter",
+    "name": "Walnootboter",
+    "category": "vetten-en-olien",
+    "status": "voorwaardelijk",
+    "why": "Zelfde spanning als andere notenpasta’s: olielijst zegt ja, notenadvies zegt in mate of nee.",
+    "aliases": [],
+    "conditions": "Alleen spaarzaam; walnoten zelf mogen in mate.",
+    "access": "public"
+  },
+  {
+    "slug": "frituurvet",
+    "name": "Frituurvetten",
+    "category": "vetten-en-olien",
+    "status": "niet_toegestaan",
+    "why": "Zwaar, oxidatief belast en vaak hergebruikt. Niet tijdens de kuur.",
+    "aliases": [
+      "frituurolie",
+      "patatvet"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bak-en-braad",
+    "name": "Bak- en braadproducten",
+    "category": "vetten-en-olien",
+    "status": "niet_toegestaan",
+    "why": "Industrieel bakvet, vaak met emulgatoren. Gebruik in plaats daarvan een toegestane olie of plantaardige margarine.",
+    "aliases": [
+      "bakboter",
+      "braadproduct"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pandanrijst",
+    "name": "Pandanrijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Lichte witte rijst die tijdens het dieet goed verteert.",
+    "aliases": [
+      "pandan"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "basmati",
+    "name": "Basmatirijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Toegestane rijstsoort, beter verteerbaar dan zilvervlies.",
+    "aliases": [
+      "basmati rijst"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "surinaamse-rijst",
+    "name": "Surinaamse rijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Toegestane rijstsoort.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "wilde-rijst",
+    "name": "Wilde rijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Toegestane rijstsoort.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rode-rijst",
+    "name": "Rode rijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Toegestane rijstsoort.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "aardappelen",
+    "name": "Aardappelen",
+    "category": "rijst-aardappel-pasta",
+    "status": "beperkt",
+    "why": "Mag, maar niet elke dag. Aardappel staat ook bij groenten.",
+    "aliases": [
+      "aardappel",
+      "gekookte aardappelen",
+      "gepofte aardappel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zoete-aardappel",
+    "name": "Zoete aardappel",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Genoemd bij toegestane groenten. Bevat meer suiker dan gewone aardappel: wissel af, eet niet als dagelijkse zoetvervanger.",
+    "aliases": [
+      "bataat",
+      "zoete aardappelen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "volkorenpasta",
+    "name": "Volkorenpasta",
+    "category": "rijst-aardappel-pasta",
+    "status": "voorwaardelijk",
+    "why": "Alleen volkoren, geen witmeelpasta. Bij glutenintolerantie of -allergie uitsluitend glutenvrije pasta.",
+    "aliases": [
+      "volkoren spaghetti",
+      "penne volkoren",
+      "fusilli",
+      "couscous volkoren"
+    ],
+    "conditions": "Bij glutenallergie of -intolerantie: alleen glutenvrije pasta.",
+    "access": "public"
+  },
+  {
+    "slug": "quinoa",
+    "name": "Quinoa",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Geen tarwegluten. Toegestaan als graanvervanger bij pasta/rijst.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kamut",
+    "name": "Kamut",
+    "category": "rijst-aardappel-pasta",
+    "status": "voorwaardelijk",
+    "why": "Staat bij toegestane pasta-alternatieven, maar kamut is een tarwerelatief mét gluten. Niet bij glutenproblemen.",
+    "aliases": [
+      "khorasan"
+    ],
+    "conditions": "Niet bij glutenintolerantie of glutenallergie.",
+    "access": "public"
+  },
+  {
+    "slug": "rijstvermicelli",
+    "name": "Rijstmie / vermicelli",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Rijstnoedels, licht verteerbaar.",
+    "aliases": [
+      "rijstmie",
+      "vermicelli",
+      "noedels"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "mihoen",
+    "name": "Mihoen",
+    "category": "rijst-aardappel-pasta",
+    "status": "toegestaan",
+    "why": "Rijstnoedel, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zilvervliesrijst",
+    "name": "Zilvervliesrijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "niet_toegestaan",
+    "why": "Te zwaar af te breken tijdens de kuur.",
+    "aliases": [
+      "zilvervlies"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kleefrijst",
+    "name": "Kleefrijst",
+    "category": "rijst-aardappel-pasta",
+    "status": "niet_toegestaan",
+    "why": "Kleefrijst is niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "witte-pasta",
+    "name": "Witte pasta",
+    "category": "rijst-aardappel-pasta",
+    "status": "niet_toegestaan",
+    "why": "Geen witmeelpasta’s. Kies volkoren of glutenvrij.",
+    "aliases": [
+      "witte spaghetti"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "rundvlees",
+    "name": "Rundvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Toegestaan, beter niet elke dag. Goed doorbakken vanwege parasieten. Bij reuma, jicht of ontstekingen sterk minderen: dierlijk eiwit verzuurt.",
+    "aliases": [
+      "biefstuk",
+      "rundergehakt",
+      "biefreepjes",
+      "sudderlappen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "lamsvlees",
+    "name": "Lamsvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Toegestaan, afwisselen met rund en gevogelte.",
+    "aliases": [
+      "lam"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "schapenvlees",
+    "name": "Schapenvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Toegestaan, niet elke dag.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kip",
+    "name": "Biologische kip",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Biologische kip mag. Gangbare pluimveevoeding bevat antibiotica.",
+    "aliases": [
+      "kipfilet",
+      "kippenvlees"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kalkoen",
+    "name": "Kalkoen",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Toegestaan gevogelte.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "eend",
+    "name": "Eend",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Toegestaan gevogelte.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tofu",
+    "name": "Tahoe / tofu",
+    "category": "vlees-en-gevogelte",
+    "status": "toegestaan",
+    "why": "Goede vleesvervanger. Altijd goed verhitten, niet rauw eten.",
+    "aliases": [
+      "tahoe"
+    ],
+    "notes": "Niet rauw.",
+    "access": "public"
+  },
+  {
+    "slug": "vleesvervangers",
+    "name": "Vegetarische vleesvervangers",
+    "category": "vlees-en-gevogelte",
+    "status": "voorwaardelijk",
+    "why": "Vegetarische Slager e.d. mogen, maar veel varianten bevatten granen. Niet bij sterke glutengevoeligheid. Geen schimmeleiwit.",
+    "aliases": [
+      "vegetarische slager",
+      "vega burger"
+    ],
+    "conditions": "Geen quorn of tempé. Let op gluten.",
+    "access": "public"
+  },
+  {
+    "slug": "varkensvlees",
+    "name": "Varkensvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Varken, inclusief worst van varkensvlees, is niet toegestaan.",
+    "aliases": [
+      "varken",
+      "spek",
+      "ham",
+      "bacon"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kalfsvlees",
+    "name": "Kalfsvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "paardenvlees",
+    "name": "Paardenvlees",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "worst",
+    "name": "Worst en bewerkt vlees",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Gepekeld, gerookt, ingeblikt of anders bewerkt: worst, ham, corned beef. Hulpstoffen, zout en histamine.",
+    "aliases": [
+      "ham",
+      "corned beef",
+      "cornet beef",
+      "vleeswaren"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "quorn",
+    "name": "Quorn",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Vleesvervanger van schimmeleiwit. Schimmels horen niet bij een anticandidadieet.",
+    "aliases": [
+      "schimmeleiwit"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tempe",
+    "name": "Tempé",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Bereid met schimmel. Niet tijdens de kuur.",
+    "aliases": [
+      "tempeh",
+      "tempé"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "wild",
+    "name": "Wild",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Hoog histaminegehalte en vaak kunstmatige conserveringsmiddelen.",
+    "aliases": [
+      "hert",
+      "everzwijn"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "filet-americain",
+    "name": "Rauw vlees / filet americain",
+    "category": "vlees-en-gevogelte",
+    "status": "niet_toegestaan",
+    "why": "Absoluut verboden vanwege parasietengevaar. Vlees altijd goed doorbakken.",
+    "aliases": [
+      "filet americana",
+      "tartaar rauw"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tartaar",
+    "name": "Tartaartje (doorgebakken)",
+    "category": "vlees-en-gevogelte",
+    "status": "voorwaardelijk",
+    "why": "In het voorbeeldmenu staat tartaartje bij asperges. Rauw is verboden. Alleen goed doorbakken rund, geen filet americain.",
+    "aliases": [
+      "tartaar"
+    ],
+    "conditions": "Nooit rauw. Alleen doorbakken.",
+    "access": "public"
+  },
+  {
+    "slug": "kabeljauw",
+    "name": "Kabeljauw",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan. Beste bereiding: stomen, licht stoven, grillen, roerbakken.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tong",
+    "name": "Tong",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "makreel",
+    "name": "Makreel (vers)",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Verse makreel mag. Niet de zwaar gerookte, suikergekruidde snackmakreel.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zeewolf",
+    "name": "Zeewolf",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "forel",
+    "name": "Forel",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Toegestaan. In het menu: in folie uit de oven.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zalm",
+    "name": "Zalm",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Zalm en gerookte zalm staan bij toegestane vis. Gerookt blijft histaminegevoeliger: wissel af met verse zalm.",
+    "aliases": [
+      "gerookte zalm",
+      "zalmfilet"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tongschar",
+    "name": "Tongschar",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rode-poon",
+    "name": "Rode poon",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "schol",
+    "name": "Schol",
+    "category": "vis",
+    "status": "toegestaan",
+    "why": "Witvis, toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tonijn",
+    "name": "Tonijn",
+    "category": "vis",
+    "status": "beperkt",
+    "why": "Mag, maar is vaak belast met cadmium. Hooguit 1× per 2 weken.",
+    "aliases": [
+      "tuna"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "mosselen",
+    "name": "Mosselen",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Schaal- en schelpdier, hoog histaminegehalte.",
+    "aliases": [
+      "mossel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kreeft",
+    "name": "Kreeft",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Schaaldier, hoog histamine.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "garnalen",
+    "name": "Garnalen",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Schaaldier, hoog histamine.",
+    "aliases": [
+      "garnaal",
+      "scampi"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "inktvis",
+    "name": "Inktvis",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan, histaminebelasting.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "paling",
+    "name": "Paling",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Hoog histaminegehalte.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "haring",
+    "name": "Haring",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Hoog histaminegehalte.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "krab",
+    "name": "Krab",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Schaaldier, hoog histamine.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "schelp-schaaldieren",
+    "name": "Overige schaal- en schelpdieren",
+    "category": "vis",
+    "status": "niet_toegestaan",
+    "why": "Mosselen, kreeft, garnalen, krab, slakken en andere schelp- en schaaldieren: hoog histamine.",
+    "aliases": [
+      "oester",
+      "slakken",
+      "coquilles"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "walnoten",
+    "name": "Walnoten",
+    "category": "noten-en-zaden",
+    "status": "beperkt",
+    "why": "In mate. Noten zijn aflatoxinegevoelig; de samenvatting zet alle noten op ‘niet’ omdat ze oliën bevatten.",
+    "aliases": [
+      "walnoot"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "cashewnoten",
+    "name": "Cashewnoten",
+    "category": "noten-en-zaden",
+    "status": "beperkt",
+    "why": "In mate. Zelfde voorbehoud als andere noten.",
+    "aliases": [
+      "cashew"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "hazelnoten",
+    "name": "Hazelnoten",
+    "category": "noten-en-zaden",
+    "status": "beperkt",
+    "why": "In mate.",
+    "aliases": [
+      "hazelnoot"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kastanje",
+    "name": "Gepofte kastanje",
+    "category": "noten-en-zaden",
+    "status": "toegestaan",
+    "why": "Gepofte kastanje mag. Kastanje staat ook bij groenten.",
+    "aliases": [
+      "kastanjes"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pompoenpitten",
+    "name": "Pompoenpitten",
+    "category": "noten-en-zaden",
+    "status": "toegestaan",
+    "why": "Pitten bevatten geen gluten en zijn toegestaan.",
+    "aliases": [
+      "pompoenpit"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zonnebloempitten",
+    "name": "Zonnebloempitten",
+    "category": "noten-en-zaden",
+    "status": "toegestaan",
+    "why": "Toegestaan, ook als tussendoortje of over sojayoghurt.",
+    "aliases": [
+      "zonnebloempit"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pijnboompitten",
+    "name": "Pijnboompitten",
+    "category": "noten-en-zaden",
+    "status": "toegestaan",
+    "why": "Toegestaan. In het menu in pesto.",
+    "aliases": [
+      "pijnboompit",
+      "pinoli"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pindas",
+    "name": "Pinda’s",
+    "category": "noten-en-zaden",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan, evenmin pindakaas. Schimmelgevoelig (aflatoxine) en oliehoudend.",
+    "aliases": [
+      "pinda",
+      "pindakaas",
+      "aardnoten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pecannoten",
+    "name": "Pecanoten",
+    "category": "noten-en-zaden",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [
+      "pecan"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "macadamia",
+    "name": "Macadamianoten",
+    "category": "noten-en-zaden",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [
+      "macadamia noten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "gojibessen",
+    "name": "Gojibessen",
+    "category": "noten-en-zaden",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan. Zoet gedroogd fruit hoort bij de suikerbeperking.",
+    "aliases": [
+      "goji",
+      "goji bessen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kiemgroenten",
+    "name": "Kiemgroenten",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan. Rauwkost max. 10% van de maaltijd.",
+    "aliases": [
+      "kiemen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "alfalfa",
+    "name": "Alfalfa",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan, o.a. op rijstwafels in het menu.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tauge",
+    "name": "Taugé",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "taugé"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "prei",
+    "name": "Prei",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "uien",
+    "name": "Uien",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "ui",
+      "lente-ui",
+      "lente ui"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bleekselderij",
+    "name": "Bleekselderij",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "bleekselderie",
+      "selderij"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "selderie",
+    "name": "Selderie",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan als groente en als kruid.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "komkommer",
+    "name": "Komkommer",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "courgette",
+    "name": "Courgette",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "courgettes"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "aubergine",
+    "name": "Aubergine",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "eggplant"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "wortelen",
+    "name": "Wortelen",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan. Wortelsap zonder toegevoegde suiker ook. Rauwkost beperkt houden.",
+    "aliases": [
+      "wortel",
+      "worteltjes",
+      "bospeen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "asperges",
+    "name": "Asperges",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "knolraap",
+    "name": "Knolraap",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan. Niet verwarren met koolraap (niet toegestaan).",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "bieslook",
+    "name": "Bieslook",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rode-bieten",
+    "name": "Rode bieten",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan. Bietensap zonder suiker ook.",
+    "aliases": [
+      "bieten",
+      "bietjes"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "venkel",
+    "name": "Venkel",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "bamboespruiten",
+    "name": "Bamboespruiten",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "amsoy",
+    "name": "Amsoy",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan bladgroente.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "paksoi",
+    "name": "Paksoi",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "pak choi"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "witlof",
+    "name": "Witlof",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "sla",
+    "name": "Sla (alle soorten)",
+    "category": "groenten",
+    "status": "beperkt",
+    "why": "Alle soorten sla mogen, niet te veel. Rauwkost max. 10% van de maaltijd.",
+    "aliases": [
+      "kropsla",
+      "ijsbergsla",
+      "rucola"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "pastinaak",
+    "name": "Pastinaak",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "schorseneren",
+    "name": "Schorseneren",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "spinazie",
+    "name": "Spinazie",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "andijvie",
+    "name": "Andijvie",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "pompoen",
+    "name": "Pompoen",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "paprika",
+    "name": "Paprika",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan, liever groen of geel dan rood (zoeter).",
+    "aliases": [
+      "zoete paprika"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "broccoli",
+    "name": "Broccoli",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan. Rijke calciumbron — een antwoord op ‘hoe kom ik aan mijn kalk zonder melk’.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "waterkers",
+    "name": "Waterkers",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zeewier",
+    "name": "Zeewier",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan, waaronder zeekraal.",
+    "aliases": [
+      "zeekraal"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "mais",
+    "name": "Mais",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan (kolf, korrel). Glutenvrij graan én groente.",
+    "aliases": [
+      "maïs",
+      "maiskolf"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kokos",
+    "name": "Kokos",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Kokos en santen (kokosmelk) zijn toegestaan.",
+    "aliases": [
+      "santen",
+      "kokosmelk"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "radijs",
+    "name": "Radijs",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "cassave",
+    "name": "Cassave",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "yuca"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "spaanse-peper",
+    "name": "Verse Spaanse peper",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Vers toegestaan. Kant-en-klare sambal niet (azijn, suiker, conserveermiddel).",
+    "aliases": [
+      "chili",
+      "chile"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "diepvriesgroenten",
+    "name": "Diepvriesgroenten",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Toegestaan als er geen suiker is toegevoegd. Voeding uit de vriezer mag na verhitting. Geen opgewarmde kliekjes van de vorige dag.",
+    "aliases": [
+      "diepvries",
+      "wokgroenten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bietensap",
+    "name": "Bietensap en wortelsap",
+    "category": "groenten",
+    "status": "toegestaan",
+    "why": "Zonder toegevoegde suikers. Geen overige vruchtensappen.",
+    "aliases": [
+      "wortelsap"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "champignons",
+    "name": "Champignons en paddenstoelen",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Schimmels. Niet tijdens een anticandidadieet.",
+    "aliases": [
+      "paddenstoelen",
+      "shiitake",
+      "oesterzwam"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zuurkool",
+    "name": "Zuurkool en gefermenteerde groenten",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Gepekeld of gefermenteerd. Histamine en extra darmprikkel tijdens de kuur.",
+    "aliases": [
+      "kimchi",
+      "gepekelde groenten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bloemkool",
+    "name": "Bloemkool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Alle koolsoorten zijn niet toegestaan tijdens de kuur.",
+    "aliases": [
+      "kool"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "chinese-kool",
+    "name": "Chinese kool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "witte-kool",
+    "name": "Witte kool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "spitskool",
+    "name": "Spitskool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "savooiekool",
+    "name": "Savooiekool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [
+      "savoie kool"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "boerenkool",
+    "name": "Boerenkool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rode-kool",
+    "name": "Rode kool",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "spruiten",
+    "name": "Spruiten",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolsoort, niet toegestaan.",
+    "aliases": [
+      "spruitjes"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "koolraap",
+    "name": "Koolraap",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Koolachtig, niet toegestaan. Knolraap wél.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "witte-bonen",
+    "name": "Witte bonen",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Alle bonensoorten zijn niet toegestaan.",
+    "aliases": [
+      "bonen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bruine-bonen",
+    "name": "Bruine bonen",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Bonensoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "sperziebonen",
+    "name": "Sperziebonen",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Bonensoort, niet toegestaan.",
+    "aliases": [
+      "sperciebonen"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tuinbonen",
+    "name": "Tuinbonen",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Bonensoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kousenband",
+    "name": "Kousenband",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Bonensoort, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "peultjes",
+    "name": "Peultjes",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Peulvrucht, niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "doperwten",
+    "name": "Doperwten",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Alle erwtsoorten zijn niet toegestaan.",
+    "aliases": [
+      "erwten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tomaten",
+    "name": "Tomaten",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Niet tijdens de kuur. In het roulatiedieet kun je tomaat later testdagen (bijvoorbeeld met kaas en olijven), daarna twee dagen mijden.",
+    "aliases": [
+      "tomaat",
+      "cherry tomaat"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "olijven",
+    "name": "Olijven",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan (pekel, histamine).",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "peterselie",
+    "name": "Peterselie",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Uitdrukkelijk niet toegestaan, in tegenstelling tot de meeste andere kruiden.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "conservengroenten",
+    "name": "Groenten uit blik of glas",
+    "category": "groenten",
+    "status": "niet_toegestaan",
+    "why": "Antbederfstoffen. Kies vers of diepvries zonder suiker.",
+    "aliases": [
+      "blikgroente",
+      "weck"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "maiszena",
+    "name": "Maïzena",
+    "category": "bindmiddelen",
+    "status": "toegestaan",
+    "why": "Toegestaan bindmiddel (reform).",
+    "aliases": [
+      "maizena",
+      "maiszetmeel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "arrowroot",
+    "name": "Arrowroot",
+    "category": "bindmiddelen",
+    "status": "toegestaan",
+    "why": "Toegestaan bindmiddel.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tapioca",
+    "name": "Tapioca",
+    "category": "bindmiddelen",
+    "status": "toegestaan",
+    "why": "Toegestaan bindmiddel.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "overige-bindmiddelen",
+    "name": "Overige bindmiddelen",
+    "category": "bindmiddelen",
+    "status": "niet_toegestaan",
+    "why": "Andere bindmiddelen niet gebruiken. Geen tarwebloem als bindmiddel.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "majoraan",
+    "name": "Majoraan",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan kruid.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "tijm",
+    "name": "Tijm",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zeezout",
+    "name": "Zeezout",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan. Geen smaakversterkers E621–E635.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "peper",
+    "name": "Peper",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "bonenkruid",
+    "name": "Bonenkruid",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "knoflook",
+    "name": "Knoflook",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "basilicum",
+    "name": "Basilicum",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan. Basis van de pesto in het voorbeeldmenu.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "oregano",
+    "name": "Oregano",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "fenegriek",
+    "name": "Fenegriek",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kurkuma",
+    "name": "Kurkuma / geelwortel",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "geelwortel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "dille",
+    "name": "Dille",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "paprikapoeder",
+    "name": "Paprikapoeder",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "foelie",
+    "name": "Foelie",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "sereh",
+    "name": "Sereh / citroengras",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "citroengras",
+      "serehpoeder"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "galanga"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "salam",
+    "name": "Salam",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan Indonesisch bladkruid.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kervel",
+    "name": "Kervel",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "groentebouillon",
+    "name": "Groentebouillon zonder gist",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Alleen zonder gist, bijvoorbeeld Vetara. Gewone blokjes bevatten vaak gist en glutamaat (E621).",
+    "aliases": [
+      "bouillon",
+      "vetara"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tamarinde",
+    "name": "Tamarinde",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "koriander",
+    "name": "Koriander",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "dragon",
+    "name": "Dragon",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "komijn",
+    "name": "Komijn",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "cumin"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "miso",
+    "name": "Miso",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan. Gefermenteerd, maar in de brontabel bij toegestane smaakstoffen.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kardemom",
+    "name": "Kardemom",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan.",
+    "aliases": [
+      "cardamon",
+      "cardamom"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "chilipoeder",
+    "name": "Chilipoeder",
+    "category": "specerijen",
+    "status": "toegestaan",
+    "why": "Toegestaan (niet hetzelfde als sambal).",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "nootmuskaat",
+    "name": "Nootmuskaat",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rozemarijn",
+    "name": "Rozemarijn",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "mierikswortel",
+    "name": "Mierikswortel",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kaneel",
+    "name": "Kaneel",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "gember",
+    "name": "Gember",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan tijdens de kuur.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "mosterd",
+    "name": "Mosterd",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Azijn en vaak suiker. Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "laurier",
+    "name": "Laurier",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "kerrie",
+    "name": "Kerrie",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan (vaak mix met niet-toegestane kruiden).",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "azijn",
+    "name": "Azijnsoorten",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Alle azijnsoorten zijn niet toegestaan. Gisting en histamine.",
+    "aliases": [
+      "azijn",
+      "wijnazijn",
+      "appelazijn"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "mayonaise",
+    "name": "Mayonaise en halvanaise",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Ei, azijn, olie, vaak suiker. Niet toegestaan.",
+    "aliases": [
+      "halvanaise"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "saladedressing",
+    "name": "Saladedressing",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Meestal azijn, suiker en hulpstoffen.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "sambal",
+    "name": "Sambal",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan. Verse Spaanse peper wél.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "ketjap",
+    "name": "Ketjap, ketchup, zoete sojasaus en tamari",
+    "category": "specerijen",
+    "status": "niet_toegestaan",
+    "why": "Zoet, vaak tarwe (tamari/sojasaus) en conserveermiddelen.",
+    "aliases": [
+      "ketchup",
+      "tamari",
+      "zoete sojasaus",
+      "sojasaus"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "shoyu",
+    "name": "Shoyu",
+    "category": "specerijen",
+    "status": "voorwaardelijk",
+    "why": "Komt in het voorbeeldmenu voor (scheutje bij soep of wok), terwijl tamari, ketjap en zoete sojasaus op de verbodslijst staan. Shoyu is een sojasaus, vaak met tarwe.",
+    "aliases": [
+      "soya"
+    ],
+    "conditions": "Brontekst is niet eenduidig. Liever groentebouillon zonder gist of een glutenvrije, ongezoete variant — of weglaten bij glutengevoeligheid.",
+    "access": "public"
+  },
+  {
+    "slug": "suiker",
+    "name": "Suiker",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Tijdens de kuur absoluut geen suiker. Candida voedt zich met snelle suikers. Onthouding dwingt de schimmel naar de nystatine (die zoet is).",
+    "aliases": [
+      "rietsuiker",
+      "kristalsuiker",
+      "basterdsuiker",
+      "bloedsuiker"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "honing",
+    "name": "Honing",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Ook honing niet tijdens de drie weken. Ná het dieet eventueel beperkt acaciahoning.",
+    "aliases": [
+      "honig",
+      "acaciahoning"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "stevia",
+    "name": "Stevia",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Tijdens de kuur geen stevia. Daarna is het een plantaardig alternatief, 40× zoeter, zonder de zenuwbelasting van aspartaam of sorbitol. Begin met een mespuntje.",
+    "aliases": [
+      "stevioside"
+    ],
+    "notes": "Na de kuur wél een optie, tijdens de kuur niet.",
+    "access": "public"
+  },
+  {
+    "slug": "aspartaam",
+    "name": "Aspartaam",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof (E951). Nadelig voor de zenuwen, veel in lightproducten.",
+    "aliases": [
+      "e951"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "sorbitol",
+    "name": "Sorbitol",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof (E420). Niet tijdens de kuur, nadelig voor de zenuwen.",
+    "aliases": [
+      "e420"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kunstmatige-zoetstoffen",
+    "name": "Kunstmatige zoetstoffen / zoetjes",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Geen zoetjes, aspartaam, sorbitol of andere kunstmatige zoetstoffen. Lightproducten laten staan.",
+    "aliases": [
+      "zoetjes",
+      "sweetener"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "carobestroop",
+    "name": "Carobe- en appelstroop / diksappen",
+    "category": "zoetstoffen",
+    "status": "niet_toegestaan",
+    "why": "Niet tijdens de kuur. Ná de drie weken mag je beperkt beginnen als de zoete trek terugkomt.",
+    "aliases": [
+      "appelstroop",
+      "diksappen",
+      "carobe"
+    ],
+    "notes": "Pas na het dieet, beperkt.",
+    "access": "public"
+  },
+  {
+    "slug": "bronwater",
+    "name": "Bronwater (koolzuurvrij)",
+    "category": "dranken",
+    "status": "toegestaan",
+    "why": "Spa blauw, Chaudfontaine, Vittel, Evian e.d. Probeer 1,5 liter per dag. Water voert afvalstoffen af, essentieel bij afvallen én ontgiften.",
+    "aliases": [
+      "spa blauw",
+      "evian",
+      "vittel",
+      "chaudfontaine",
+      "water"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "rooibos",
+    "name": "Rooibosthee",
+    "category": "dranken",
+    "status": "toegestaan",
+    "why": "Onbeperkt. Opzetten met bronwater.",
+    "aliases": [
+      "rooibos"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kruidenthee",
+    "name": "Kruidenthee",
+    "category": "dranken",
+    "status": "toegestaan",
+    "why": "Alle kruidenthee, soorten afwisselen. Opzetten met bronwater.",
+    "aliases": [
+      "thee kruiden"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "groene-thee",
+    "name": "Groene en witte thee",
+    "category": "dranken",
+    "status": "toegestaan",
+    "why": "Mag gebruikt worden. Zwarte en gearomatiseerde thee niet.",
+    "aliases": [
+      "witte thee",
+      "groene thee"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "granenkoffie",
+    "name": "Granenkoffie",
+    "category": "dranken",
+    "status": "toegestaan",
+    "why": "Pacha en vergelijkbare granenkoffie, opzetten met bronwater.",
+    "aliases": [
+      "pacha",
+      "moutkoffie"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "kraanwater",
+    "name": "Kraanwater",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Tijdens de kuur liever niet. Trager opgenomen dan bronwater, sporen van medicijnen en PFAS.",
+    "aliases": [
+      "tapwater"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "bar-le-duc",
+    "name": "Bar-le-Duc in pakken",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Met name genoemd als niet gebruiken.",
+    "aliases": [
+      "bar le duc"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "koffie",
+    "name": "Koffie",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Niet tijdens de kuur. Kies granenkoffie.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "zwarte-thee",
+    "name": "Zwarte thee",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Niet toegestaan.",
+    "aliases": [
+      "english breakfast",
+      "ceylon"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "gearomatiseerde-thee",
+    "name": "Gearomatiseerde thee",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Bijvoorbeeld sinaasappeltbee. Aroma’s en vaak citrusolie.",
+    "aliases": [
+      "sinaasappeltbee",
+      "sinaasappel thee"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "vruchtensap",
+    "name": "Vruchtensappen",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Fructose. Geen sappen tijdens de kuur (biet- en wortelsap zonder suiker zijn de uitzondering bij groenten).",
+    "aliases": [
+      "jus",
+      "sinaasappelsap",
+      "jus d'orange"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "alcohol",
+    "name": "Alcoholische dranken",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Bier, wijn en overige alcohol belasten lever en darm, en bevatten suiker of gist.",
+    "aliases": [
+      "bier",
+      "wijn",
+      "alcohol"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "zoete-dranken",
+    "name": "Zoete dranken en light",
+    "category": "dranken",
+    "status": "niet_toegestaan",
+    "why": "Suiker óf kunstmatige zoetstoffen. Beide ongewenst.",
+    "aliases": [
+      "cola",
+      "sinas",
+      "light cola",
+      "icetea"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "tortilla-chips",
+    "name": "Tortilla chips naturel",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Naturel, ongezoet. Maisbasis.",
+    "aliases": [
+      "mais chips",
+      "maischips"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "chips-naturel",
+    "name": "Chips naturel / zeezout",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Gewone chips naturel of zeezout, geen smaakjes met E621 of suiker.",
+    "aliases": [
+      "zeezoutchips",
+      "chips"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "sesamcrackers",
+    "name": "Sesamcrackers (Molenaartje)",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Genoemd als toegestane cracker.",
+    "aliases": [
+      "crackers",
+      "molenaartje"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "oreganocrackers",
+    "name": "Oreganocrackers (Nuon bio)",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Genoemd als toegestane cracker.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "matses",
+    "name": "Matses",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Ongezuurd. Let op: tarwe — bij glutenallergie laten staan.",
+    "aliases": [
+      "matzes",
+      "matse"
+    ],
+    "conditions": "Bevat tarwe. Niet bij glutenallergie.",
+    "access": "public"
+  },
+  {
+    "slug": "amarantcrackers",
+    "name": "Amarantcrackers (Allos)",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Glutenvrij crackeralternatief.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "rijstwafels",
+    "name": "Rijst- en granenwafels",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Ongezoet. Vast tussendoortje in het voorbeeldmenu.",
+    "aliases": [
+      "rijstwafel",
+      "granenwafel"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "popcorn",
+    "name": "Popcorn (ongezoet)",
+    "category": "snacks",
+    "status": "toegestaan",
+    "why": "Mais, zonder suiker of caramel.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "fruit",
+    "name": "Fruit (alle soorten)",
+    "category": "fruit",
+    "status": "niet_toegestaan",
+    "why": "Tijdens de kuur geen fruit: fructose voedt candida. In het roulatiedieet wissel je fruit per dag, max. twee soorten, tussen 14.00 en 16.00 uur, niet rondom de maaltijd.",
+    "aliases": [
+      "appel",
+      "banaan",
+      "kiwi",
+      "sinaasappel",
+      "aardbei",
+      "druif"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "avocado",
+    "name": "Avocado",
+    "category": "fruit",
+    "status": "niet_toegestaan",
+    "why": "Uitdrukkelijk ook avocado niet tijdens de kuur.",
+    "aliases": [],
+    "access": "public"
+  },
+  {
+    "slug": "krenten-rozijnen",
+    "name": "Krenten en rozijnen",
+    "category": "fruit",
+    "status": "niet_toegestaan",
+    "why": "Gedroogd fruit is geconcentreerde suiker.",
+    "aliases": [
+      "rozijnen",
+      "krenten"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e621",
+    "name": "E621–E635 glutamaten",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Glutamaat, natriumglutamaat, sodiumglutamaat, monoglutamaat, MSG, kaliumglutamaat. Smaakversterkers die een extra immuunbelasting geven.",
+    "aliases": [
+      "msg",
+      "glutamaat",
+      "natriumglutamaat",
+      "e621",
+      "e622",
+      "e623",
+      "e624",
+      "e625",
+      "smaakversterker"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e950",
+    "name": "E950 acesulfaam-K",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof in lightproducten. Nadelig voor de zenuwen.",
+    "aliases": [
+      "acesulfaam"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e951",
+    "name": "E951 aspartaam",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof.",
+    "aliases": [
+      "aspartaam e951"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e952",
+    "name": "E952 cyclamaat",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof.",
+    "aliases": [
+      "cyclamaat"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e954",
+    "name": "E954 sacharine",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof.",
+    "aliases": [
+      "sacharine"
+    ],
+    "access": "public"
+  },
+  {
+    "slug": "e420",
+    "name": "E420 sorbitol",
+    "category": "e-nummers",
+    "status": "niet_toegestaan",
+    "why": "Kunstmatige zoetstof.",
+    "aliases": [
+      "sorbitol e420"
+    ],
+    "access": "public"
+  }
+]

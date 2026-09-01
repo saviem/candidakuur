@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "brood-en-granen",
+    "name": "Brood en granen",
+    "short": "Desem, gluten, gist",
+    "intro": "Bijna alle granen bevatten gluten. Door korte deegbewerking worden gluten niet genoeg uit elkaar getrokken, waardoor het immuunsysteem in de darmen fouten maakt. Tijdens het dieet is zuurdesembrood de betere keuze: natuurlijke gisting bewerkt de gluten vooraf. Gewoon brood bevat gistculturen die dysbiose in de hand werken, plus broodveredelaars en weekmakers. Een goede bereiding kneedt en rijst drie keer, zodat amylase en protease het deeg kunnen afbreken.",
+    "access": "public"
+  },
+  {
+    "slug": "broodbeleg",
+    "name": "Broodbeleg",
+    "short": "Hartig, zonder suiker",
+    "intro": "Beleg is tijdens het dieet het moeilijkst. Zoete producten vallen af omdat suiker candida voedt. Hartig, zelfgemaakt of puur notenpasta (in mate) past wel. Er zit altijd een restje suiker in producten; maak daar geen halszaak van — het dieet plus nystatine vangt dat op.",
+    "access": "public"
+  },
+  {
+    "slug": "zuivel",
+    "name": "Zuivel",
+    "short": "Verslijming en calcium",
+    "intro": "Melk is vast voedsel: vet en eiwit moeten eerst verteerd worden. Calcium in melk is gebonden aan fosfor en daardoor lastig opneembaar. Melkproducten verslijmen; die slijmlaag belemmert opname van goede stoffen en IGA in de slijmvliezen. Bij een gemeten melkintolerantie drie weken geen zuivel. Gefermenteerde melk is beter, maar pas ná het dieet. Calcium haal je uit broccoli, soja, rijst en granen — we krijgen vaak té veel kalk, terwijl magnesium belangrijker is.",
+    "access": "public"
+  },
+  {
+    "slug": "eieren",
+    "name": "Eieren",
+    "short": "Biologisch, met mate",
+    "intro": "Biologische eieren mag je eten, in mate. Alleen bij een geconstateerde ei-intolerantie of -allergie laat je ze staan. In veel producten zitten eieren als bindmiddel. Voeding van pluimvee bevat vaak antibiotica, ook bij scharrel- of vrije uitloop. Mindering tijdens de kuur is verstandig.",
+    "access": "public"
+  },
+  {
+    "slug": "vetten-en-olien",
+    "name": "Vetten en oliën",
+    "short": "Plantaardig, niet frituren",
+    "intro": "Kies koude, plantaardige oliën en natuurboterachtige margarines. Frituurvetten en bak-en-braadproducten belasten. Olijfolie staat in de bronlijst én als uitzondering: wie van oorsprong met olijfolie is opgevoed (Grieken, Italianen, Turken, Marokkanen) kan die blijven gebruiken. In de boodschappensamenvatting wordt olijfolie afgeraden vanwege een kruisreactie met histaminehoudende producten.",
+    "access": "public"
+  },
+  {
+    "slug": "rijst-aardappel-pasta",
+    "name": "Rijst, aardappel en pasta",
+    "short": "Lichte koolhydraten",
+    "intro": "Witte basmati-, pandan-, surinaamse, wilde of rode rijst valt goed te verteren. Zilvervliesrijst is te zwaar. Aardappel mag, maar niet elke dag. Pasta alleen volkoren; bij glutenintolerantie of -allergie uitsluitend glutenvrije varianten. Witte pasta en kleefrijst niet.",
+    "access": "public"
+  },
+  {
+    "slug": "vlees-en-gevogelte",
+    "name": "Vlees en gevogelte",
+    "short": "Rund, lam, bio-kip",
+    "intro": "Rund, lam, schaap en biologische kip, kalkoen of eend mogen, het liefst niet elke dag. Varken, kalf, paard, worst, pekel, rookwaren uit blik en schimmeleiwit (quorn, tempé) niet. Rauw of niet doorbakken vlees is verboden vanwege parasieten. Bij reuma, jicht of heftige ontstekingen dierlijke eiwitten sterk minderen: ze verzuren en lokken ontsteking uit. Tofu altijd verhitten. Let bij vleesvervangers op gluten.",
+    "access": "public"
+  },
+  {
+    "slug": "vis",
+    "name": "Vis",
+    "short": "Witvis, geen schaal",
+    "intro": "Verse witvis (stomen, stoven, grillen, roerbakken) past in het dieet. Schaal- en schelpdieren, haring en paling hebben een hoog histaminegehalte. Tonijn mag hooguit eens per twee weken: vaak belast met cadmium.",
+    "access": "public"
+  },
+  {
+    "slug": "noten-en-zaden",
+    "name": "Noten en zaden",
+    "short": "Aflatoxine, in mate",
+    "intro": "Noten zijn gevoelig voor aflatoxine (schimmeltoxinen) die de lever schaden en kankerverwekkend zijn. Controle in het buitenland is niet altijd betrouwbaar. Daarom in principe geen noten; in mate walnoot, cashew en hazelnoot, plus pitten en chia. Pinda’s, pecan, macadamia en gojibessen niet. De boodschappensamenvatting is strenger en zet alle nootsoorten bij ‘niet’ omdat ze oliën bevatten.",
+    "access": "public"
+  },
+  {
+    "slug": "groenten",
+    "name": "Groenten",
+    "short": "Vers, geen kool of tomaat",
+    "intro": "De meeste blad- en knolgroenten mogen, diepvries zonder toegevoegde suiker ook. Rauwkost maximaal 10% van de maaltijd. Koolsoorten, bonen, erwten, tomaat, paddenstoelen, zuurkool, olijven en peterselie niet. Groenten uit blik of glas bevatten antibederfstoffen. Conserven dus laten staan.",
+    "access": "public"
+  },
+  {
+    "slug": "bindmiddelen",
+    "name": "Bindmiddelen",
+    "short": "Maiszena, arrowroot",
+    "intro": "Maïzena, arrowroot, tapioca, guarpit- en johannisbroodmeel zijn toegestaan. Kokosmelk (santen) ook. Andere bindmiddelen niet gebruiken.",
+    "access": "public"
+  },
+  {
+    "slug": "specerijen",
+    "name": "Specerijen en smaak",
+    "short": "Kruiden zonder gist",
+    "intro": "Verse en gedroogde keukenkruiden zoals tijm, kurkuma en knoflook mogen. Azijn, mosterd, kerrie, kaneel, gember, mayonaise en zoete sojasauzen niet. Groentebouillon zonder gist. In het voorbeeldmenu komt shoyu voor, terwijl tamari, ketjap en zoete sojasaus in de verbodslijst staan — daarom voorwaardelijk.",
+    "access": "public"
+  },
+  {
+    "slug": "zoetstoffen",
+    "name": "Zoetstoffen",
+    "short": "Niets zoets tijdens de kuur",
+    "intro": "Tijdens de kuur absoluut geen suiker of suikerhoudende producten, geen honing, aspartaam, sorbitol, stevia of andere kunstmatige zoetstoffen. Ook geen fruit: dat bevat fructose. Ná de drie weken mag je beperkt beginnen met acaciahoning, carobestroop, appelstroop of diksap. Stevia is dan een plantaardig alternatief (40× zoeter); kunstmatige zoetstoffen blijven nadelig voor de zenuwen.",
+    "access": "public"
+  },
+  {
+    "slug": "dranken",
+    "name": "Dranken",
+    "short": "Bronwater en kruidenthee",
+    "intro": "Drink tijdens de kuur ongeveer 1,5 liter koolzuurvrij bronwater per dag. Kraanwater wordt trager opgenomen en bevat sporen van medicijnen en PFAS. Koffie, zwarte thee, vruchtensappen, light- en alcoholische dranken niet. Thee en granenkoffie opzetten met bronwater.",
+    "access": "public"
+  },
+  {
+    "slug": "snacks",
+    "name": "Snacks",
+    "short": "Ongezoet en naturel",
+    "intro": "Kleine porties tussendoor houden de bloedsuiker stabiel. Kies ongezoete crackers, rijstwafels, matzes, naturel chips of pitten. Wacht niet tot je honger hebt.",
+    "access": "public"
+  },
+  {
+    "slug": "fruit",
+    "name": "Fruit",
+    "short": "Niet tijdens de kuur",
+    "intro": "Geen fruit tijdens de drie weken, ook geen avocado, krenten of rozijnen: fructose voedt candida. In het roulatiedieet daarna fruit wisselen (bijvoorbeeld appel, banaan, kiwi), maximaal twee soorten per dag, het liefst tussen 14.00 en 16.00 uur. Niet voor of na de maaltijd — dat werkt gisting in de hand. Sinaasappel en jus d’orange extra voorzichtig.",
+    "access": "public"
+  },
+  {
+    "slug": "e-nummers",
+    "name": "E-nummers",
+    "short": "Glutamaat en zoetstoffen",
+    "intro": "Vermijd smaakversterkers E621 tot en met E635 (glutamaten) en kunstmatige zoetstoffen in lightproducten. Een lichaam dat al belast is met toxinen krijgt hiervan extra immuunbelasting. Objectieve onderzoeken spreken de claims van de voedingsindustrie tegen: deze stoffen werken nadelig op de zenuwen.",
+    "access": "public"
+  }
+]

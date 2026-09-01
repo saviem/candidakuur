@@ -1,0 +1,860 @@
+{
+  "intro": "Onderstaand menu is samengesteld door een patiënt die het dieet volgde. Het is een voorbeeld — je hoeft het niet exact over te nemen. Vervang producten die niet stroken met de dieetlijst. Week 3 is een herhaling. Kook vers; geen opgewarmde kliekjes. Eet 4 tot 5 keer kleine porties en wacht niet tot je honger hebt.",
+  "days": [
+    {
+      "day": 1,
+      "weekday": "Maandag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Soyayoghurt met zonnebloempitjes, rijstwafels met zonnebloempasta en alfalfa",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers, wortel",
+          "productSlugs": [
+            "sesamcrackers",
+            "wortelen"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Soep van wokgroenten in bouillon met noedels en scheutje shoyu, desemboterham met sesampasta",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "groentebouillon",
+            "rijstvermicelli",
+            "shoyu",
+            "speltzuurdesembrood",
+            "tahin"
+          ],
+          "note": "Shoyu staat als voorwaardelijk in de kennisbank."
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Gebakken kipfilet (citroentijm, olie, zout, peper), volkoren couscous met koriander, citroensap en sesamolie, geroosterde bospeen",
+          "productSlugs": [
+            "kip",
+            "tijm",
+            "zeezout",
+            "peper",
+            "volkorenpasta",
+            "koriander",
+            "sesamolie",
+            "wortelen"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje maischips",
+          "productSlugs": [
+            "tortilla-chips"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "weekday": "Dinsdag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 1",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matse met margarine, geblancheerde broccoliroosjes met beetje shoyu",
+          "productSlugs": [
+            "matses",
+            "margarine-plantaardig",
+            "broccoli",
+            "shoyu"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Spinaziesoep met sojaroom, desemboterham met knoflook-bieslookmargarine",
+          "productSlugs": [
+            "spinazie",
+            "sojamelk",
+            "speltzuurdesembrood",
+            "knoflook",
+            "bieslook",
+            "margarine-plantaardig"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met rosbief",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "rosbief"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Gehaktballetjes, volkoren penne in groentesaus",
+          "productSlugs": [
+            "rundvlees",
+            "volkorenpasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "weekday": "Woensdag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 1",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met knoflookmargarine, komkommer",
+          "productSlugs": [
+            "matses",
+            "knoflook",
+            "margarine-plantaardig",
+            "komkommer"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Pasta pesto (basilicum, knoflook, pijnboompitjes, sesamolie)",
+          "productSlugs": [
+            "volkorenpasta",
+            "basilicum",
+            "knoflook",
+            "pijnboompitten",
+            "sesamolie"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Spinaziesoepje, sudderlappen in bouillon met groenten, rode rijst, geblancheerde prei",
+          "productSlugs": [
+            "spinazie",
+            "rundvlees",
+            "groentebouillon",
+            "rode-rijst",
+            "prei"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje zeezoutchips",
+          "productSlugs": [
+            "chips-naturel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "weekday": "Donderdag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 1",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Geblancheerde broccoli met shoyu, desemboterham met pesto",
+          "productSlugs": [
+            "broccoli",
+            "shoyu",
+            "speltzuurdesembrood",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Gemengde groentesoep, desemboterham met knoflook- of bieslookmargarine",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "speltzuurdesembrood",
+            "knoflook",
+            "bieslook"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Rijstwafels met pesto",
+          "productSlugs": [
+            "rijstwafels",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Forel in folie met groente en verse kruiden, couscous",
+          "productSlugs": [
+            "forel",
+            "volkorenpasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "weekday": "Vrijdag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 1",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met tijm- of basilicummargarine, wortel",
+          "productSlugs": [
+            "matses",
+            "tijm",
+            "basilicum",
+            "wortelen"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Broccolisoep, desemboterham met margarine",
+          "productSlugs": [
+            "broccoli",
+            "speltzuurdesembrood",
+            "margarine-plantaardig"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Asperges, gekookte aardappelen, tartaartje, sojaroomsaus met bieslook",
+          "productSlugs": [
+            "asperges",
+            "aardappelen",
+            "tartaar",
+            "sojamelk",
+            "bieslook"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje maischips",
+          "productSlugs": [
+            "tortilla-chips"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "weekday": "Zaterdag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 1",
+          "productSlugs": [
+            "sojayoghurt",
+            "zonnebloempitten",
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met pesto",
+          "productSlugs": [
+            "matses",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Preisoep, desemboterham met tijm- of basilicummargarine",
+          "productSlugs": [
+            "prei",
+            "speltzuurdesembrood",
+            "tijm",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Pastasalade met gemarineerde gebakken kipfilet, fusilli, zoete paprika, komkommer, wokgroenten, sesamolie",
+          "productSlugs": [
+            "kip",
+            "volkorenpasta",
+            "paprika",
+            "komkommer",
+            "diepvriesgroenten",
+            "sesamolie"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Zeezoutchips",
+          "productSlugs": [
+            "chips-naturel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "weekday": "Zondag",
+      "week": 1,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Desemboterham met gekookt eitje",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "eieren"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Groentesoep, desemboterham met tijm- of basilicummargarine",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "speltzuurdesembrood",
+            "tijm",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Rijstwafels met zonnebloempasta en alfalfa",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Kip, geroosterde wortels, gebakken aardappels",
+          "productSlugs": [
+            "kip",
+            "wortelen",
+            "aardappelen"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje maischips",
+          "productSlugs": [
+            "tortilla-chips"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "weekday": "Maandag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Rijstwafels met zonnebloempasta en alfalfa",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Biogarde met zonnebloempitjes",
+          "productSlugs": [
+            "biogarde",
+            "zonnebloempitten"
+          ],
+          "note": "Biogarde is voorwaardelijk: niet bij zuivelintolerantie; in de bronlijst vooral week 3."
+        },
+        {
+          "label": "Lunch",
+          "text": "Soep van wokgroenten in bouillon met noedels en shoyu, desemboterham met rosbief",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "groentebouillon",
+            "rijstvermicelli",
+            "shoyu",
+            "speltzuurdesembrood",
+            "rosbief"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Maiskolf, gepofte aardappel, biefstuk",
+          "productSlugs": [
+            "mais",
+            "aardappelen",
+            "rundvlees"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers, komkommer",
+          "productSlugs": [
+            "sesamcrackers",
+            "komkommer"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "weekday": "Dinsdag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Geblancheerde wortels",
+          "productSlugs": [
+            "wortelen"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Spinaziesoep met sojaroom, desemboterham met knoflook-bieslookmargarine",
+          "productSlugs": [
+            "spinazie",
+            "sojamelk",
+            "speltzuurdesembrood",
+            "knoflook",
+            "bieslook"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met rosbief",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "rosbief"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Gehaktballetjes, gemengde groenten, couscous met koriander, citroensap en sesamolie",
+          "productSlugs": [
+            "rundvlees",
+            "volkorenpasta",
+            "koriander",
+            "sesamolie"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "weekday": "Woensdag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met knoflookmargarine, komkommer",
+          "productSlugs": [
+            "matses",
+            "knoflook",
+            "komkommer"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Pasta pesto (basilicum, knoflook, pijnboompitjes, sesamolie)",
+          "productSlugs": [
+            "volkorenpasta",
+            "basilicum",
+            "knoflook",
+            "pijnboompitten",
+            "sesamolie"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Zalm in folie met groente en verse kruiden, pandanrijst",
+          "productSlugs": [
+            "zalm",
+            "pandanrijst"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "weekday": "Donderdag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Geblancheerde broccoli met shoyu, desemboterham met pesto",
+          "productSlugs": [
+            "broccoli",
+            "shoyu",
+            "speltzuurdesembrood",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Gemengde groentesoep, desemboterham met knoflook-bieslookmargarine",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "speltzuurdesembrood",
+            "knoflook",
+            "bieslook"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Rode rijst, kip en paprika met serehpoeder in kokosmelk",
+          "productSlugs": [
+            "rode-rijst",
+            "kip",
+            "paprika",
+            "sereh",
+            "kokos"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje zeezoutchips",
+          "productSlugs": [
+            "chips-naturel"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "weekday": "Vrijdag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met tijm- en basilicummargarine, wortel",
+          "productSlugs": [
+            "matses",
+            "tijm",
+            "basilicum",
+            "wortelen"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Broccolisoep, desemboterham met margarine",
+          "productSlugs": [
+            "broccoli",
+            "speltzuurdesembrood",
+            "margarine-plantaardig"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Aardappels, bietjes, tartaartje",
+          "productSlugs": [
+            "aardappelen",
+            "rode-bieten",
+            "tartaar"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Bakje maischips",
+          "productSlugs": [
+            "tortilla-chips"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "weekday": "Zaterdag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Matses met pesto",
+          "productSlugs": [
+            "matses",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Spinaziesoep, desemboterham met tijm- en basilicummargarine",
+          "productSlugs": [
+            "spinazie",
+            "speltzuurdesembrood",
+            "tijm",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met zonnebloempasta en radijs",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "zonnebloempasta",
+            "radijs"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Forel uit de oven, couscous, asperges",
+          "productSlugs": [
+            "forel",
+            "volkorenpasta",
+            "asperges"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "weekday": "Zondag",
+      "week": 2,
+      "meals": [
+        {
+          "label": "Ontbijt",
+          "text": "Zie dag 8",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Desemboterham met gekookt eitje",
+          "productSlugs": [
+            "speltzuurdesembrood",
+            "eieren"
+          ]
+        },
+        {
+          "label": "Lunch",
+          "text": "Groentesoep, desemboterham met tijm- en basilicummargarine",
+          "productSlugs": [
+            "diepvriesgroenten",
+            "speltzuurdesembrood",
+            "tijm",
+            "basilicum"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Rijstwafels met zonnebloempasta en alfalfa",
+          "productSlugs": [
+            "rijstwafels",
+            "zonnebloempasta",
+            "alfalfa"
+          ]
+        },
+        {
+          "label": "Diner",
+          "text": "Noedels, wokgroenten, biefreepjes, koriander, shoyu",
+          "productSlugs": [
+            "rijstvermicelli",
+            "diepvriesgroenten",
+            "rundvlees",
+            "koriander",
+            "shoyu"
+          ]
+        },
+        {
+          "label": "Snack",
+          "text": "Crackers",
+          "productSlugs": [
+            "sesamcrackers"
+          ]
+        }
+      ]
+    }
+  ]
+}

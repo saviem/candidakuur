@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "gluten",
+    "name": "Gluten",
+    "short": "Hoofdallergeen · granen",
+    "is_main": true,
+    "intro": "Gluten is een van de drie hoofdallergenen. Bijna alle granen bevatten gluten (gliadine). Door korte deegbewerking worden gluten niet genoeg uit elkaar getrokken, waardoor het immuunsysteem in de darmen fouten maakt. Tijdens het dieet is zuurdesem of glutenvrij de betere keuze. Bij glutenintolerantie of -allergie kies je uitsluitend glutenvrije pasta, crackers en meelsoorten zoals teff, maïs, boekweit en amarant.",
+    "categories": ["brood-en-granen"],
+    "slugs": [
+      "volkorenpasta",
+      "kamut",
+      "pasta-wit",
+      "witte-pasta",
+      "vleesvervangers",
+      "shoyu",
+      "ketjap",
+      "matses",
+      "sesamcrackers",
+      "oreganocrackers",
+      "amarantcrackers",
+      "rijstwafels",
+      "granenkoffie",
+      "haverdrank",
+      "haveryoghurt"
+    ]
+  },
+  {
+    "slug": "zuivel",
+    "name": "Zuivel",
+    "short": "Hoofdallergeen · melk",
+    "is_main": true,
+    "intro": "Zuivel is een van de drie hoofdallergenen. Melk is vast voedsel: vet en eiwit moeten eerst verteerd worden. Melkproducten verslijmen; die slijmlaag belemmert opname van goede stoffen en IGA. Bij een gemeten melkintolerantie drie weken geen zuivel. Gefermenteerde melk is beter, maar pas ná het dieet. Ongezoete soja- of haverdrank past wel.",
+    "categories": ["zuivel"],
+    "slugs": []
+  },
+  {
+    "slug": "snelle-suikers",
+    "name": "Snelle suikers",
+    "short": "Hoofdallergeen · candida",
+    "is_main": true,
+    "intro": "Snelle suikers zijn het derde hoofdallergeen. Candida voedt zich met suiker. Tijdens de kuur geen kristalsuiker, honing, jam, fruit (fructose) of kunstmatige zoetstoffen. Ook light-dranken, vruchtensap en zoet beleg vallen af. Ná de drie weken mag je beperkt beginnen met acaciahoning, carobestroop of diksap.",
+    "categories": ["zoetstoffen", "fruit"],
+    "slugs": [
+      "jam",
+      "hagelslag",
+      "cake",
+      "koeken",
+      "taart",
+      "yakult",
+      "gojibessen",
+      "vruchtensap",
+      "zoete-dranken",
+      "alcohol",
+      "bar-le-duc",
+      "e950",
+      "e951",
+      "e952",
+      "e954",
+      "e420"
+    ]
+  },
+  {
+    "slug": "ei",
+    "name": "Ei",
+    "short": "Sub-allergeen",
+    "is_main": false,
+    "intro": "Ei is een sub-allergeen. Biologische eieren mag je tijdens het dieet eten, in mate. Alleen bij een geconstateerde ei-intolerantie of -allergie laat je ze staan. In veel producten zitten eieren als bindmiddel, zoals mayonaise, cake, koek en taart. Voeding van pluimvee bevat vaak antibiotica, ook bij scharrel of vrije uitloop.",
+    "categories": ["eieren"],
+    "slugs": ["mayonaise", "cake", "koeken", "taart"]
+  },
+  {
+    "slug": "histamine",
+    "name": "Histamine",
+    "short": "Kruisreactie",
+    "is_main": false,
+    "intro": "Histamine is geen hoofdallergeen van het dieet, maar geeft kruisreacties. Schaal- en schelpdieren, haring, paling, wild, gerookt of bewerkt vlees, zuurkool, tomaat en gefermenteerde sauzen hebben een hoog histaminegehalte. Olijfolie staat in de bronlijst én als uitzondering: in de boodschappensamenvatting wordt die afgeraden vanwege deze kruisreactie.",
+    "categories": [],
+    "slugs": [
+      "olijfolie",
+      "mosselen",
+      "kreeft",
+      "garnalen",
+      "inktvis",
+      "paling",
+      "haring",
+      "krab",
+      "schelp-schaaldieren",
+      "wild",
+      "zuurkool",
+      "tomaten",
+      "rundrookvlees",
+      "worst",
+      "miso",
+      "shoyu",
+      "azijn",
+      "champignons",
+      "olijven"
+    ]
+  }
+]
