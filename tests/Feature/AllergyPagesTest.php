@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Models\User;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -15,6 +16,7 @@ class AllergyPagesTest extends TestCase
         parent::setUp();
 
         $this->seed(DatabaseSeeder::class);
+        $this->actingAs(User::factory()->create());
     }
 
     public function test_allergies_index_lists_main_allergens(): void
@@ -43,6 +45,14 @@ class AllergyPagesTest extends TestCase
             ->assertOk()
             ->assertSee('Zuivel')
             ->assertSee('/allergieen/zuivel');
+    }
+
+    public function test_product_pages_resolve_by_slug(): void
+    {
+        $this->get('/product/zilvervliesrijst')
+            ->assertOk()
+            ->assertSee('Zilvervliesrijst')
+            ->assertSee('Te zwaar af te breken tijdens de kuur.');
     }
 
     public function test_search_suggests_allergies(): void

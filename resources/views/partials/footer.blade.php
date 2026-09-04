@@ -23,9 +23,15 @@
                 Dit is voedingsadvies van de praktijk, geen vervanging van een arts. Nystatine is een geneesmiddel en alleen op voorschrift van je huisarts. Bij diabetes: overleg voordat je insuline aanpast.
             </p>
             <p class="mt-3">
-                <a href="{{ route('guides.show', 'nystatine') }}" class="text-accent hover:underline">Meer over nystatine</a>
-                ·
-                <a href="{{ route('guides.show', 'contact') }}" class="text-accent hover:underline">Contact</a>
+                @auth
+                    <a href="{{ route('guides.show', 'nystatine') }}" class="text-accent hover:underline">Meer over nystatine</a>
+                    ·
+                    <a href="{{ route('guides.show', 'contact') }}" class="text-accent hover:underline">Contact</a>
+                @else
+                    <a href="{{ route('login') }}" class="text-accent hover:underline">Inloggen voor de gids</a>
+                    ·
+                    <a href="mailto:pvbg@ardra.nl" class="text-accent hover:underline">Contact</a>
+                @endauth
             </p>
         </div>
     </div>

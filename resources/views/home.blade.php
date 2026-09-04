@@ -18,6 +18,9 @@
         <span><strong class="text-ink">{{ $allergies->count() }}</strong> allergieën</span>
         <span><strong class="text-ink">3</strong> weken menu</span>
     </div>
+    <div class="mt-10 max-w-xl">
+        @include('partials.install-app')
+    </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4 py-12 sm:px-6">

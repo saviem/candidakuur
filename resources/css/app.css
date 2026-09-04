@@ -31,6 +31,8 @@ body {
     background: var(--color-paper);
     color: var(--color-ink);
     font-family: var(--font-sans);
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
 }
 
 button:not(:disabled),

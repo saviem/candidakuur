@@ -10,6 +10,11 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 #[Fillable(['slug', 'name', 'short', 'intro', 'access', 'sort_order'])]
 class Category extends Model
 {
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
     public function products(): HasMany
     {
         return $this->hasMany(Product::class);

@@ -9,6 +9,11 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 #[Fillable(['slug', 'title', 'summary', 'access', 'sort_order'])]
 class Guide extends Model
 {
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
     public function sections(): HasMany
     {
         return $this->hasMany(GuideSection::class)->orderBy('sort_order');

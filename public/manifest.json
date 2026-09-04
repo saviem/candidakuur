@@ -1,0 +1,33 @@
+{
+    "id": "/",
+    "name": "Voedingsadvies ARDRA",
+    "short_name": "Voedingsadvies",
+    "description": "Zoek wat je mag eten tijdens het anti-candidadieet van praktijk ARDRA.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#F6F7F4",
+    "theme_color": "#0F1714",
+    "lang": "nl",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-512-maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

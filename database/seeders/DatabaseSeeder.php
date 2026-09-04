@@ -12,7 +12,6 @@ use App\Models\Product;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -22,7 +21,8 @@ class DatabaseSeeder extends Seeder
             ['email' => env('ADMIN_EMAIL', 'saviem@pureorange.nl')],
             [
                 'name' => 'ARDRA',
-                'password' => Hash::make(env('ADMIN_PASSWORD', 'voedingsadvies')),
+                'password' => env('ADMIN_PASSWORD', 'voedingsadvies'),
+                'is_admin' => true,
             ],
         );
 
