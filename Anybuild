@@ -1,7 +1,8 @@
 # Pin PHP 8.4 for Wasmer/Anybuild. Symfony 8.1 (via Laravel 13) uses
 # property hooks that PHP 8.3 cannot parse (Request.php syntax error).
 
-load("//anybuild/tools:laravel.bzl", "laravel_build", "laravel_config", "laravel_serve")
+load("//anybuild/tools:laravel.bzl", "laravel_build", "laravel_config")
+load("//anybuild/tools:php.bzl", "php_serve")
 
 config = laravel_config(
     schema = 1,
@@ -17,11 +18,21 @@ config = laravel_config(
 
 build = laravel_build(config)
 
-laravel_serve(
+php_serve(
     config,
     build,
     name = "voedingsadvies",
-    extra_commands = {
+    provider = "laravel",
+    commands = {
+        "start": "php -S 0.0.0.0:$PORT -t public",
         "after_deploy": "php artisan migrate --force",
     },
+    prepare = [
+        workdir(build.app.serve_path),
+        run("mkdir -p storage/framework/sessions storage/framework/views storage/framework/cache storage/framework/testing storage/logs bootstrap/cache"),
+    ],
+    build_post = [
+        run("rm -rf node_modules"),
+        run("composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-interaction"),
+    ],
 )
