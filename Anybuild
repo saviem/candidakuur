@@ -17,4 +17,12 @@ config = laravel_config(
 
 build = laravel_build(config)
 
-laravel_serve(config, build, name = "voedingsadvies")
+laravel_serve(
+    config,
+    build,
+    name = "voedingsadvies",
+    commands = {
+        "start": "php -S 0.0.0.0:$PORT -t public",
+        "after_deploy": "php artisan migrate --force",
+    },
+)
