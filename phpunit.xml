@@ -32,5 +32,12 @@
         <env name="PULSE_ENABLED" value="false"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
         <env name="NIGHTWATCH_ENABLED" value="false"/>
+        <env name="OPENAI_API_KEY" value="test-openrouter-key"/>
+        <env name="OPENAI_BASE_URL" value="https://openrouter.ai/api/v1"/>
+        <env name="OPENAI_MODEL" value="openai/gpt-4o-mini"/>
+        <env name="MOLLIE_KEY" value="test_mollie_key"/>
+        <env name="MOLLIE_API_URL" value="https://api.mollie.com"/>
+        <env name="MOLLIE_PLUS_AMOUNT" value="9.90"/>
+        <env name="MOLLIE_PLUS_DAYS" value="30"/>
     </php>
 </phpunit>

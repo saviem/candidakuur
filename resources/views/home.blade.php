@@ -51,13 +51,37 @@
 </section>
 
 <section class="mx-auto grid max-w-6xl gap-3 px-4 py-12 sm:px-6 lg:grid-cols-2">
-    <a href="{{ route('menu') }}" class="rounded-[24px] bg-ink p-8 text-paper transition hover:opacity-95">
-        <p class="text-xs font-medium uppercase tracking-[0.16em] text-paper/60">Voorbeeld</p>
-        <h2 class="mt-3 text-2xl font-semibold tracking-tight">Menu voor 3 weken</h2>
+    <a href="{{ route('assistant') }}" class="rounded-[24px] bg-ink p-8 text-paper transition hover:opacity-95">
+        <p class="text-xs font-medium uppercase tracking-[0.16em] text-paper/60">Assistent</p>
+        <h2 class="mt-3 text-2xl font-semibold tracking-tight">Twee producten uit de koelkast</h2>
         <p class="mt-3 max-w-md text-sm leading-relaxed text-paper/70">
+            Noem wat je in huis hebt. De assistent maakt er een passend dagmenu van.
+        </p>
+    </a>
+    <a href="{{ route('menu') }}" class="rounded-[24px] border border-line bg-card p-8 transition hover:border-ink/20">
+        <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Voorbeeld</p>
+        <h2 class="mt-3 text-2xl font-semibold tracking-tight">Menu voor 3 weken</h2>
+        <p class="mt-3 max-w-md text-sm leading-relaxed text-muted">
             Ontbijt, lunch, diner en snacks per dag. Tik op een product voor de toelichting.
         </p>
     </a>
+    <a href="{{ route('diary.index') }}" class="rounded-[24px] border border-line bg-card p-8 transition hover:border-ink/20">
+        <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Plus · Dagboek</p>
+        <h2 class="mt-3 text-2xl font-semibold tracking-tight">Hoe ging de kuur vandaag?</h2>
+        <p class="mt-3 max-w-md text-sm leading-relaxed text-muted">
+            Stemming, energie en symptomen bijhouden. Zie patronen over de week.
+        </p>
+    </a>
+    <a href="{{ route('symptoms.index') }}" class="rounded-[24px] border border-line bg-card p-8 transition hover:border-ink/20">
+        <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Wat nu?</p>
+        <h2 class="mt-3 text-2xl font-semibold tracking-tight">Bijwerkingen &amp; wat je kunt doen</h2>
+        <p class="mt-3 max-w-md text-sm leading-relaxed text-muted">
+            Korte kaarten bij spierpijn, hoofdpijn, moeheid, cravings en meer.
+        </p>
+    </a>
+</section>
+
+<section class="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
     <div class="rounded-[24px] border border-line bg-card p-8">
         <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Gids</p>
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Waarom het werkt</h2>

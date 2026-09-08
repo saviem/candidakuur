@@ -1,8 +1,8 @@
 <footer class="mt-auto border-t border-line bg-card">
     <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
         <div>
-            <p class="text-sm font-semibold tracking-tight">Voedingsadvies</p>
-            <p class="mt-1 text-xs uppercase tracking-[0.16em] text-muted">ARDRA</p>
+            <p class="text-sm font-semibold tracking-tight">Candidakuur</p>
+            <p class="mt-1 text-xs uppercase tracking-[0.16em] text-muted">candidakuur.nl · praktijk ARDRA</p>
             <p class="mt-4 max-w-sm text-sm leading-relaxed text-muted">
                 Doorzoekbare kennisbank bij het anti-candidadieet van HP. H.A. Stormer. Praktijk voor Biologische Geneeswijzen, Haarlem.
             </p>

@@ -9,6 +9,7 @@ use App\Models\GuideSection;
 use App\Models\MenuDay;
 use App\Models\MenuMeal;
 use App\Models\Product;
+use App\Models\SymptomGuide;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -29,6 +30,7 @@ class DatabaseSeeder extends Seeder
         $this->seedCategoriesAndProducts();
         $this->seedAllergies();
         $this->seedGuides();
+        $this->seedSymptomGuides();
         $this->seedMenu();
     }
 
@@ -123,6 +125,25 @@ class DatabaseSeeder extends Seeder
                     'sort_order' => $sectionIndex,
                 ]);
             }
+        }
+    }
+
+    private function seedSymptomGuides(): void
+    {
+        foreach ($this->json('symptom_guides.json') as $row) {
+            SymptomGuide::query()->updateOrCreate(
+                ['slug' => $row['slug']],
+                [
+                    'title' => $row['title'],
+                    'tags' => $row['tags'] ?? [],
+                    'summary' => $row['summary'],
+                    'body_common' => $row['body_common'] ?? null,
+                    'body_practical' => $row['body_practical'] ?? null,
+                    'body_contact' => $row['body_contact'] ?? null,
+                    'published' => (bool) ($row['published'] ?? true),
+                    'sort_order' => $row['sort_order'] ?? 0,
+                ],
+            );
         }
     }
 

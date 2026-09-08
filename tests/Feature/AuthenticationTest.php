@@ -28,7 +28,10 @@ class AuthenticationTest extends TestCase
         $this->get('/zoeken')->assertRedirect(route('login'));
         $this->get('/categorieen')->assertRedirect(route('login'));
         $this->get('/menu')->assertRedirect(route('login'));
+        $this->get('/assistent')->assertRedirect(route('login'));
         $this->get('/gids')->assertRedirect(route('login'));
+        $this->get('/wat-nu')->assertRedirect(route('login'));
+        $this->get('/dagboek')->assertRedirect(route('login'));
     }
 
     public function test_users_can_register_and_reach_the_knowledge_base(): void

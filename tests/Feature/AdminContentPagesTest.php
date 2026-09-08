@@ -29,5 +29,13 @@ class AdminContentPagesTest extends TestCase
         $this->actingAs($user)
             ->get('/admin/menu-days/create')
             ->assertOk();
+
+        $this->actingAs($user)
+            ->get('/admin/symptom-guides')
+            ->assertOk();
+
+        $this->actingAs($user)
+            ->get('/admin/symptom-guides/create')
+            ->assertOk();
     }
 }

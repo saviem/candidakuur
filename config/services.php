@@ -6,12 +6,6 @@ return [
     |--------------------------------------------------------------------------
     | Third Party Services
     |--------------------------------------------------------------------------
-    |
-    | This file is for storing the credentials for third party services such
-    | as Resend, Postmark, AWS, and more. This file provides the de facto
-    | location for this type of information, allowing packages to have
-    | a conventional file to locate the various service credentials.
-    |
     */
 
     'postmark' => [
@@ -33,6 +27,20 @@ return [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
+    ],
+
+    'openrouter' => [
+        'key' => env('OPENAI_API_KEY'),
+        'url' => env('OPENAI_BASE_URL', 'https://openrouter.ai/api/v1'),
+        'model' => env('OPENAI_MODEL', 'openai/gpt-4o-mini'),
+    ],
+
+    'mollie' => [
+        'key' => env('MOLLIE_KEY'),
+        'api_url' => env('MOLLIE_API_URL', 'https://api.mollie.com'),
+        'plus_amount' => env('MOLLIE_PLUS_AMOUNT', '9.90'),
+        'plus_days' => (int) env('MOLLIE_PLUS_DAYS', 30),
+        'donate_amounts' => array_map('intval', explode(',', env('MOLLIE_DONATE_AMOUNTS', '5,10,25'))),
     ],
 
 ];

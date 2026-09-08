@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "spierpijn-grieperig",
+    "title": "Spierpijn of grieperig gevoel",
+    "tags": [
+      "spierpijn",
+      "grieperig"
+    ],
+    "summary": "Spierpijn en een grieperig gevoel komen vaak voor in de eerste dagen van de kuur. Meestal tijdelijk, soms heftig.",
+    "body_common": "Bij het starten van het anti-candidadieet en nystatine kunnen afvalstoffen vrijkomen. Dat voelt soms als spierpijn, koude rillingen of een milde griep. Dit past bij de startfase en neemt bij de meeste mensen na enkele dagen af.",
+    "body_practical": "Drink voldoende water. Houd het menu licht en warm. Plan rust in en forceer geen zware training. Noteer in je dagboek hoe heftig het is en of het afneemt. Warmte (douche, deken) helpt vaak beter dan pijnstilling — overleg bij twijfel met de praktijk.",
+    "body_contact": "Neem contact op met praktijk ARDRA bij koorts boven 38,5°C, benauwdheid, aanhoudende hevige pijn, of als je klachten na een week juist erger worden in plaats van rustiger.",
+    "published": true,
+    "sort_order": 1
+  },
+  {
+    "slug": "hoofdpijn",
+    "title": "Hoofdpijn",
+    "tags": [
+      "hoofdpijn"
+    ],
+    "summary": "Hoofdpijn kan horen bij suikerontwenning of vochtbalans in de eerste week. Meestal mild tot matig.",
+    "body_common": "Minder snelle suikers en cafeïne, plus ontgifting, kan tijdelijke hoofdpijn geven. Ook te weinig drinken of zoutarm eten speelt mee.",
+    "body_practical": "Drink regelmatig water. Eet op vaste momenten. Vermijd te lange vastenperiodes. Een korte wandeling in frisse lucht helpt soms. Noteer of de hoofdpijn samenhangt met honger of slecht slapen.",
+    "body_contact": "Bel de praktijk of huisarts bij acute hevige hoofdpijn, neurologische uitval, braken met stijve nek, of hoofdpijn die niet meer te verdragen is.",
+    "published": true,
+    "sort_order": 2
+  },
+  {
+    "slug": "extreme-moeheid",
+    "title": "Extreme moeheid",
+    "tags": [
+      "moeheid"
+    ],
+    "summary": "Diepe vermoeidheid is een veelgehoorde bijwerking in week 1–2. Je lichaam herstelt en vraagt rust.",
+    "body_common": "Het dieet vraagt energie van je spijsvertering en immuunsysteem. Extreme moeheid komt vaak voor en betekent niet per se dat iets ‘fout’ gaat.",
+    "body_practical": "Gun jezelf kortere dagen. Houd maaltijden eenvoudig en voldoende. Beperk lange schermen laat op de avond. Korte dutjes (20 min) kunnen helpen; lange middagdutjes juist niet. Houd bij in het dagboek hoe je energie over de week beweegt.",
+    "body_contact": "Neem contact op bij flauwvallen, extreme bleekheid, aanhoudende slapeloosheid, of als moeheid na drie weken nog toeneemt zonder verbetering.",
+    "published": true,
+    "sort_order": 3
+  },
+  {
+    "slug": "honger-cravings",
+    "title": "Honger en cravings",
+    "tags": [
+      "honger",
+      "cravings"
+    ],
+    "summary": "Trek in zoet of ‘verboden’ eten is normaal. Het is vaak gewenning, geen teken dat je tekort komt.",
+    "body_common": "Candida en gewoontes houden van snelle koolhydraten. Als die wegvallen, schreeuwen cravings soms hard — vooral ’s avonds.",
+    "body_practical": "Eet voldoende eiwit en groente bij elke maaltijd. Plan een toegestaan tussendoortje. Drink water of kruidenthee bij trek. Gebruik de koelkast-assistent om met twee producten een maaltijd te maken. Noteer triggers in je dagboek.",
+    "body_contact": "Vraag de praktijk om hulp als je steeds uitvalt op suiker, of als honger gepaard gaat met duizeligheid bij diabetes of medicatie.",
+    "published": true,
+    "sort_order": 4
+  },
+  {
+    "slug": "verstopping-losse-ontlasting",
+    "title": "Verstopping of losse ontlasting",
+    "tags": [
+      "verstopping",
+      "losse ontlasting"
+    ],
+    "summary": "De stoelgang kan in beide richtingen omslaan. Vaak tijdelijk door menu, vezels en nystatine.",
+    "body_common": "Verandering in vezels, vet en darmflora zorgt regelmatig voor obstipatie of juist lossere ontlasting. Beide komen voor tijdens de kuur.",
+    "body_practical": "Bij verstopping: meer water, beweging, en toegestane vezelrijke groenten. Bij losse ontlasting: eenvoudige warme maaltijden, tijdelijk minder rauwkost. Houd hygiëne strikt. Noteer frequentie en consistentie in het dagboek.",
+    "body_contact": "Neem contact op bij bloed in de ontlasting, aanhoudende diarree (>3 dagen), hevige buikpijn, of geen ontlasting langer dan 4–5 dagen met klachten.",
+    "published": true,
+    "sort_order": 5
+  },
+  {
+    "slug": "huid-jeuk",
+    "title": "Huidklachten of jeuk",
+    "tags": [
+      "huid",
+      "jeuk"
+    ],
+    "summary": "Jeuk, droge huid of tijdelijke uitslag kan meeliften op ontgifting of voedselverandering.",
+    "body_common": "De huid reageert soms op dieetaanpassingen. Milde jeuk of droogheid is vervelend maar vaak voorbijgaand.",
+    "body_practical": "Douche lauwer, gebruik milde, geurarme verzorging. Hydrateer van binnenuit. Vermijd krabben. Noteer of jeuk samenhangt met specifieke maaltijden.",
+    "body_contact": "Bel bij snelle zwelling van gezicht/lippen/tong, benauwdheid (allergie!), of uitgebreide uitslag met koorts. Bij twijfel: praktijk ARDRA.",
+    "published": true,
+    "sort_order": 6
+  },
+  {
+    "slug": "het-lijkt-erger",
+    "title": "Het lijkt erger te worden",
+    "tags": [
+      "erger"
+    ],
+    "summary": "Soms voelt week 1–2 zwaarder dan verwacht. Dat kan een ‘dieptereactie’ zijn — maar niet alles hoort erbij.",
+    "body_common": "Een tijdelijke verergering van klachten (Herxheimer-achtig) wordt vaak beschreven bij schimmelkuren. Het is niet hetzelfde als een medisch noodgeval.",
+    "body_practical": "Vergelijk met je dagboek van een week geleden: is het echt erger, of anders? Vertraag het tempo: eenvoudiger eten, meer rust, meer water. Gebruik de Wat nu?-kaarten bij losse symptomen. Deel je notities met de praktijk.",
+    "body_contact": "Neem altijd contact op bij rode vlaggen: hoge koorts, benauwdheid, hevige buikpijn, uitdroging, verwardheid, of als je je écht onveilig voelt. Liever één keer te vaak bellen.",
+    "published": true,
+    "sort_order": 7
+  }
+]

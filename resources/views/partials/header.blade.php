@@ -3,9 +3,10 @@
     $links = auth()->check()
         ? [
             ['route' => 'search', 'label' => 'Zoeken'],
-            ['route' => 'categories.index', 'label' => 'Categorieën'],
-            ['route' => 'allergies.index', 'label' => 'Allergieën'],
             ['route' => 'menu', 'label' => 'Menu'],
+            ['route' => 'assistant', 'label' => 'Assistent'],
+            ['route' => 'diary.index', 'label' => 'Dagboek'],
+            ['route' => 'symptoms.index', 'label' => 'Wat nu?'],
             ['route' => 'guides.index', 'label' => 'Gids'],
         ]
         : [];
@@ -14,8 +15,8 @@
 <header class="sticky top-0 z-40 border-b border-line/80 bg-paper/80 backdrop-blur-md">
     <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="{{ $home }}" class="flex items-baseline gap-2">
-            <span class="text-lg font-semibold tracking-tight text-ink">Voedingsadvies</span>
-            <span class="text-[11px] font-medium uppercase tracking-[0.16em] text-muted">ARDRA</span>
+            <span class="text-lg font-semibold tracking-tight text-ink">Candidakuur</span>
+            <span class="text-[11px] font-medium uppercase tracking-[0.16em] text-muted">Voedingsadvies</span>
         </a>
         <nav class="hidden items-center gap-1 md:flex">
             @foreach ($links as $link)
@@ -24,6 +25,11 @@
                 </a>
             @endforeach
             @auth
+                @unless (auth()->user()->isPlus())
+                    <a href="{{ route('plus.index') }}" class="ml-1 rounded-full bg-accent-soft px-3 py-1.5 text-sm font-medium text-accent transition hover:opacity-90">Plus</a>
+                @else
+                    <a href="{{ route('plus.index') }}" class="ml-1 rounded-full px-3 py-1.5 text-sm font-medium text-muted transition hover:bg-card hover:text-ink">Plus</a>
+                @endunless
                 <a href="{{ route('search') }}" class="ml-2 hidden items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-xs text-muted lg:flex">
                     Zoeken
                     <kbd class="rounded bg-paper px-1.5 py-0.5 font-sans text-[10px] text-muted">⌘K</kbd>
@@ -51,6 +57,7 @@
             </a>
         @endforeach
         @auth
+            <a href="{{ route('plus.index') }}" class="block rounded-xl px-3 py-2 text-sm font-medium text-ink hover:bg-card">Plus</a>
             @if (auth()->user()->is_admin)
                 <a href="{{ url('/admin') }}" class="block rounded-xl px-3 py-2 text-sm font-medium text-ink hover:bg-card">Admin</a>
             @endif

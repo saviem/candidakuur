@@ -12,16 +12,8 @@ use Illuminate\Support\Str;
  */
 class UserFactory extends Factory
 {
-    /**
-     * The current password being used by the factory.
-     */
     protected static ?string $password;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array<string, mixed>
-     */
     public function definition(): array
     {
         return [
@@ -31,6 +23,7 @@ class UserFactory extends Factory
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
             'is_admin' => false,
+            'plus_until' => null,
         ];
     }
 
@@ -41,9 +34,13 @@ class UserFactory extends Factory
         ]);
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     */
+    public function plus(?int $days = 30): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'plus_until' => now()->addDays($days),
+        ]);
+    }
+
     public function unverified(): static
     {
         return $this->state(fn (array $attributes) => [

@@ -109,6 +109,7 @@ class KnowledgeController extends Controller
     public function suggestions(Request $request): JsonResponse
     {
         $q = trim((string) $request->string('q'));
+        $kind = (string) $request->string('kind');
         if (mb_strlen($q) < 1) {
             return response()->json(['suggestions' => []]);
         }
@@ -124,12 +125,17 @@ class KnowledgeController extends Controller
             ->map(fn (Product $product) => [
                 'kind' => 'product',
                 'title' => $product->name,
+                'slug' => $product->slug,
                 'href' => route('products.show', $product->slug),
                 'status' => $product->status->value,
                 'status_label' => $product->status->label(),
                 'status_class' => $product->status->badgeClass(),
                 'hint' => null,
             ]);
+
+        if ($kind === 'product') {
+            return response()->json(['suggestions' => $products->values()]);
+        }
 
         $categories = Category::query()
             ->where('name', 'like', $like)
