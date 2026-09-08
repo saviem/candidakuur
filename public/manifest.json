@@ -1,7 +1,7 @@
 {
     "id": "/",
-    "name": "Voedingsadvies ARDRA",
-    "short_name": "Voedingsadvies",
+    "name": "Candidakuur",
+    "short_name": "Candidakuur",
     "description": "Zoek wat je mag eten tijdens het anti-candidadieet van praktijk ARDRA.",
     "start_url": "/",
     "scope": "/",

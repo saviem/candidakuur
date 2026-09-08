@@ -16,7 +16,7 @@
     <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="{{ $home }}" class="flex items-baseline gap-2">
             <span class="text-lg font-semibold tracking-tight text-ink">Candidakuur</span>
-            <span class="text-[11px] font-medium uppercase tracking-[0.16em] text-muted">Voedingsadvies</span>
+            <span class="text-[11px] font-medium uppercase tracking-[0.16em] text-muted">Anti-candida</span>
         </a>
         <nav class="hidden items-center gap-1 md:flex">
             @foreach ($links as $link)

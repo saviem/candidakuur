@@ -26,7 +26,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->brandName('Voedingsadvies')
+            ->brandName(config('app.name'))
             ->path('admin')
             ->login()
             ->colors([

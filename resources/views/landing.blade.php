@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Voedingsadvies ARDRA')
 @section('description', 'Het anti-candidadieet van praktijk ARDRA in Haarlem. Zoek wat je mag eten tijdens de drie weken kuur, met uitleg, menu en gids.')
 
 @section('content')

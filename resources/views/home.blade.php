@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Voedingsadvies')
+@section('title', 'Kennisbank')
 
 @section('content')
 <section class="mx-auto max-w-6xl px-4 pb-8 pt-14 sm:px-6 sm:pt-20">
