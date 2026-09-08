@@ -21,7 +21,7 @@ build = laravel_build(config)
 php_serve(
     config,
     build,
-    name = "voedingsadvies",
+    name = "candidakuur",
     provider = "laravel",
     commands = {
         "start": "php -S 0.0.0.0:$PORT -t public",
