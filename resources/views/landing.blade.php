@@ -133,10 +133,10 @@
         <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
                 <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Persoonlijke ervaring</p>
-                <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Ik doe de kuur zelf — en het voelt goed.</h2>
+                <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Ik doe de kuur elk jaar opnieuw — en het blijft goed.</h2>
                 <p class="mt-5 text-base leading-relaxed text-muted">
-                    Ik, Saviem, doorloop de candidakuur op dit moment. Niet als toeschouwer, maar met hetzelfde bord en dezelfde vragen als u.
-                    De duidelijkheid over wat mag en wat niet maakt het verschil: ik eet rustiger, heb minder twijfel in de winkel, en merk dat mijn energie stabieler wordt.
+                    Ik, Saviem, doe de candidakuur elk jaar opnieuw. Niet eenmalig, maar als terugkerende reset — met hetzelfde bord en dezelfde vragen als u.
+                    De duidelijkheid over wat mag en wat niet maakt het verschil: ik eet rustiger, heb minder twijfel in de winkel, en merk dat mijn energie weer stabieler wordt.
                 </p>
                 <p class="mt-4 text-base leading-relaxed text-muted">
                     Daarom bouwde ik Candidakuur: zodat u diezelfde helderheid heeft — elke dag, in uw zak.
@@ -144,13 +144,13 @@
             </div>
             <figure class="rounded-[28px] border border-line bg-card p-8 shadow-[0_20px_60px_-40px_rgba(15,23,20,0.45)]">
                 <blockquote class="text-lg font-medium leading-relaxed tracking-tight text-ink">
-                    “Ik doe de kuur nu zelf. Het is intens, maar ik heb er een goede ervaring mee — vooral omdat ik eindelijk weet wat er wél mag.”
+                    “Ik doe de kuur elk jaar opnieuw. Het is intens, maar het werkt voor mij — vooral omdat ik precies weet wat er wél mag.”
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-3">
                     <span class="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-sm font-semibold text-paper">SJ</span>
                     <div>
                         <p class="text-sm font-semibold text-ink">Saviem Jansen</p>
-                        <p class="text-xs text-muted">Maker van Candidakuur · bezig met de kuur</p>
+                        <p class="text-xs text-muted">Maker van Candidakuur · doet de kuur elk jaar</p>
                     </div>
                 </figcaption>
             </figure>
