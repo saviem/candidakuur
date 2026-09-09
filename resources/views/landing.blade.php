@@ -19,13 +19,13 @@
             De candidakuur helpt je lichaam tot rust te komen — minder suikertrek, meer energie, een rustiger buik.
             Met Candidakuur weet je precies wat er wél op je bord mag, elke dag.
         </p>
-        <div class="mt-10 flex flex-wrap items-center gap-3">
+        <div class="mt-10 flex flex-wrap items-center gap-4">
             @auth
-                <a href="{{ route('kennisbank') }}" class="rounded-full bg-ink px-7 py-3.5 text-sm font-semibold text-paper shadow-sm transition hover:opacity-90">Start in de kennisbank</a>
-                <a href="{{ route('plus.index') }}" class="rounded-full border border-line bg-card px-7 py-3.5 text-sm font-semibold text-ink transition hover:border-ink/20">Bekijk Plus</a>
+                <a href="{{ route('kennisbank') }}" class="rounded-full bg-ink px-8 py-4 text-sm font-semibold text-paper shadow-sm transition hover:opacity-90">Start in de kennisbank</a>
+                <a href="{{ route('plus.index') }}" class="rounded-full border border-line bg-card px-8 py-4 text-sm font-semibold text-ink transition hover:border-ink/20">Bekijk Plus</a>
             @else
-                <a href="{{ route('register') }}" class="rounded-full bg-ink px-7 py-3.5 text-sm font-semibold text-paper shadow-sm transition hover:opacity-90">Begin met de kuur</a>
-                <a href="{{ route('login') }}" class="rounded-full border border-line bg-card px-7 py-3.5 text-sm font-semibold text-ink transition hover:border-ink/20">Ik heb al een account</a>
+                <a href="{{ route('register') }}" class="rounded-full bg-ink px-8 py-4 text-sm font-semibold text-paper shadow-sm transition hover:opacity-90">Begin met de kuur</a>
+                <a href="{{ route('login') }}" class="rounded-full border border-line bg-card px-8 py-4 text-sm font-semibold text-ink transition hover:border-ink/20">Ik heb al een account</a>
             @endauth
         </div>
         <p class="mt-5 text-sm text-muted">Gratis account · kennisbank + 3-wekenmenu · praktijk ARDRA Haarlem</p>
@@ -58,13 +58,13 @@
     <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div class="max-w-2xl">
             <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Herkent u dit?</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Last van dit? Doe dan drie weken de kuur.</h2>
+            <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Last van dit? Doe dan drie weken de kuur.</h2>
             <p class="mt-4 text-base leading-relaxed text-muted">
                 Candida-overgroei en een overprikkeld spijsverteringsstelsel uiten zich vaak zo. De kuur is geen snelle truc —
                 het is drie weken strak, helder eten, zodat je lichaam weer kan herstellen.
             </p>
         </div>
-        <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             @php
                 $pathways = [
                     ['title' => 'Extreme moeheid', 'body' => 'Wordt u niet uitgerust wakker, ook na een volle nacht? Doe dan drie weken de kuur — veel mensen voelen hun energie terugkomen.'],
@@ -76,7 +76,7 @@
                 ];
             @endphp
             @foreach ($pathways as $item)
-                <article class="group rounded-3xl border border-line bg-paper p-6 transition hover:border-accent/30 hover:shadow-[0_12px_40px_-24px_rgba(15,23,20,0.35)]">
+                <article class="group rounded-3xl border border-line bg-paper p-8 transition hover:border-accent/30 hover:shadow-[0_12px_40px_-24px_rgba(15,23,20,0.35)]">
                     <h3 class="text-lg font-semibold tracking-tight text-ink">{{ $item['title'] }}</h3>
                     <p class="mt-3 text-sm leading-relaxed text-muted">{{ $item['body'] }}</p>
                     <p class="mt-5 text-xs font-medium uppercase tracking-[0.14em] text-accent">→ 3 weken de kuur</p>
@@ -85,9 +85,9 @@
         </div>
         <div class="mt-10">
             @auth
-                <a href="{{ route('kennisbank') }}" class="inline-flex rounded-full bg-ink px-6 py-3 text-sm font-semibold text-paper transition hover:opacity-90">Ja, ik start de kennisbank</a>
+                <a href="{{ route('kennisbank') }}" class="inline-flex rounded-full bg-ink px-8 py-4 text-sm font-semibold text-paper transition hover:opacity-90">Ja, ik start de kennisbank</a>
             @else
-                <a href="{{ route('register') }}" class="inline-flex rounded-full bg-ink px-6 py-3 text-sm font-semibold text-paper transition hover:opacity-90">Ja, ik wil de kuur doen</a>
+                <a href="{{ route('register') }}" class="inline-flex rounded-full bg-ink px-8 py-4 text-sm font-semibold text-paper transition hover:opacity-90">Ja, ik wil de kuur doen</a>
             @endauth
         </div>
     </div>
@@ -98,7 +98,7 @@
     <div class="grid items-start gap-12 lg:grid-cols-2">
         <div>
             <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Waarom de kuur werkt</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Mensen voelen zich echt gezonder.</h2>
+            <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Mensen voelen zich echt gezonder.</h2>
             <p class="mt-5 text-base leading-relaxed text-muted">
                 Niet omdat een app magie doet — maar omdat u drie weken weet wat u wél mag eten, en wat beter blijft staan.
                 Minder giswerk. Minder valse starts. Meer rust in lichaam én hoofd.
@@ -133,7 +133,7 @@
         <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
                 <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Persoonlijke ervaring</p>
-                <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Ik doe de kuur zelf — en het voelt goed.</h2>
+                <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Ik doe de kuur zelf — en het voelt goed.</h2>
                 <p class="mt-5 text-base leading-relaxed text-muted">
                     Ik, Saviem, doorloop de candidakuur op dit moment. Niet als toeschouwer, maar met hetzelfde bord en dezelfde vragen als u.
                     De duidelijkheid over wat mag en wat niet maakt het verschil: ik eet rustiger, heb minder twijfel in de winkel, en merk dat mijn energie stabieler wordt.
@@ -164,11 +164,11 @@
     <div class="flex flex-wrap items-end justify-between gap-4">
         <div class="max-w-xl">
             <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Ervaringen</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Wat mensen merken tijdens de kuur</h2>
+            <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Wat mensen merken tijdens de kuur</h2>
         </div>
         <p class="rounded-full bg-limited-soft px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-limited">Voorbeeldquotes · te vervangen</p>
     </div>
-    <div class="mt-12 grid gap-5 lg:grid-cols-3">
+    <div class="mt-12 grid gap-8 lg:grid-cols-3">
         @php
             // VOORBEELD — vervang door echte quotes
             $examples = [
@@ -190,7 +190,7 @@
             ];
         @endphp
         @foreach ($examples as $t)
-            <figure class="flex h-full flex-col rounded-3xl border border-line bg-card p-7">
+            <figure class="flex h-full flex-col rounded-3xl border border-line bg-card p-8">
                 <blockquote class="flex-1 text-base leading-relaxed text-ink">“{{ $t['quote'] }}”</blockquote>
                 <figcaption class="mt-6 border-t border-line pt-5">
                     <p class="text-sm font-semibold text-ink">{{ $t['name'] }}</p>
@@ -206,20 +206,20 @@
     <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div class="max-w-2xl">
             <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Hoe het werkt</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Van twijfel naar een helder bord.</h2>
+            <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Van twijfel naar een helder bord.</h2>
         </div>
-        <ol class="mt-12 grid gap-6 lg:grid-cols-3">
-            <li class="rounded-3xl border border-line bg-paper p-7">
+        <ol class="mt-12 grid gap-8 lg:grid-cols-3">
+            <li class="rounded-3xl border border-line bg-paper p-8">
                 <p class="text-xs font-medium uppercase tracking-[0.16em] text-accent">01</p>
                 <h3 class="mt-3 text-xl font-semibold tracking-tight">Maak een account</h3>
                 <p class="mt-3 text-sm leading-relaxed text-muted">Gratis starten. Direct toegang tot de kennisbank, het 3-wekenmenu en de gids van de praktijk.</p>
             </li>
-            <li class="rounded-3xl border border-line bg-paper p-7">
+            <li class="rounded-3xl border border-line bg-paper p-8">
                 <p class="text-xs font-medium uppercase tracking-[0.16em] text-accent">02</p>
                 <h3 class="mt-3 text-xl font-semibold tracking-tight">Zoek wat u mag eten</h3>
                 <p class="mt-3 text-sm leading-relaxed text-muted">{{ $productCount }}+ producten, {{ $categoryCount }} categorieën. Toegelaten, beperkt, of beter laten staan — met uitleg.</p>
             </li>
-            <li class="rounded-3xl border border-line bg-paper p-7">
+            <li class="rounded-3xl border border-line bg-paper p-8">
                 <p class="text-xs font-medium uppercase tracking-[0.16em] text-accent">03</p>
                 <h3 class="mt-3 text-xl font-semibold tracking-tight">Houd de drie weken vol</h3>
                 <p class="mt-3 text-sm leading-relaxed text-muted">Volg het menu, lees de gids, en upgrade naar Plus voor assistent, dagboek en Wat nu?-kaarten.</p>
@@ -232,36 +232,36 @@
 <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
     <div class="max-w-2xl">
         <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">In Candidakuur</p>
-        <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Alles wat u nodig heeft om de kuur vol te houden.</h2>
+        <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Alles wat u nodig heeft om de kuur vol te houden.</h2>
     </div>
-    <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="rounded-3xl border border-line p-6">
+    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-3xl border border-line p-8">
             <h3 class="font-semibold tracking-tight">Productzoeken</h3>
             <p class="mt-2 text-sm leading-relaxed text-muted">Tomaat, brood, olijfolie, kaas — meteen duidelijk of het mag.</p>
         </div>
-        <div class="rounded-3xl border border-line p-6">
+        <div class="rounded-3xl border border-line p-8">
             <h3 class="font-semibold tracking-tight">3-wekenmenu</h3>
             <p class="mt-2 text-sm leading-relaxed text-muted">Ontbijt, lunch, diner en snacks. Tik door naar elk product.</p>
         </div>
-        <div class="rounded-3xl border border-line p-6">
+        <div class="rounded-3xl border border-line p-8">
             <h3 class="font-semibold tracking-tight">Gids & uitleg</h3>
             <p class="mt-2 text-sm leading-relaxed text-muted">Candida, nystatine, allergieën — in de woorden van de praktijk.</p>
         </div>
-        <div class="rounded-3xl border border-line p-6">
+        <div class="rounded-3xl border border-line p-8">
             <div class="flex items-center gap-2">
                 <h3 class="font-semibold tracking-tight">Koelkast-assistent</h3>
                 <span class="rounded-full bg-accent-soft px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">Plus</span>
             </div>
             <p class="mt-2 text-sm leading-relaxed text-muted">Noem wat u in huis heeft; krijg een kuur-proof dagmenu.</p>
         </div>
-        <div class="rounded-3xl border border-line p-6">
+        <div class="rounded-3xl border border-line p-8">
             <div class="flex items-center gap-2">
                 <h3 class="font-semibold tracking-tight">Dagboek</h3>
                 <span class="rounded-full bg-accent-soft px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">Plus</span>
             </div>
             <p class="mt-2 text-sm leading-relaxed text-muted">Stemming, energie en klachten — zie patronen over de week.</p>
         </div>
-        <div class="rounded-3xl border border-line p-6">
+        <div class="rounded-3xl border border-line p-8">
             <div class="flex items-center gap-2">
                 <h3 class="font-semibold tracking-tight">Wat nu?</h3>
                 <span class="rounded-full bg-accent-soft px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">Plus</span>
@@ -275,19 +275,19 @@
 <section class="border-t border-line bg-ink text-paper">
     <div class="mx-auto max-w-6xl px-4 py-16 text-center sm:px-6 sm:py-20">
         <p class="text-xs font-medium uppercase tracking-[0.2em] text-paper/45">Klaar om te beginnen?</p>
-        <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Drie weken. Helder eten. Beter voelen.</h2>
+        <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Drie weken. Helder eten. Beter voelen.</h2>
         <p class="mx-auto mt-5 max-w-lg text-paper/70">
             Maak een account en open de kennisbank. U volgt de kuur van praktijk ARDRA — met Candidakuur altijd bij de hand.
         </p>
-        <div class="mt-9 flex flex-wrap justify-center gap-3">
+        <div class="mt-9 flex flex-wrap justify-center gap-4">
             @auth
-                <a href="{{ route('kennisbank') }}" class="rounded-full bg-paper px-7 py-3.5 text-sm font-semibold text-ink transition hover:opacity-90">Open de kennisbank</a>
+                <a href="{{ route('kennisbank') }}" class="rounded-full bg-paper px-8 py-4 text-sm font-semibold text-ink transition hover:opacity-90">Open de kennisbank</a>
                 @unless (auth()->user()->isPlus())
-                    <a href="{{ route('plus.index') }}" class="rounded-full border border-paper/25 px-7 py-3.5 text-sm font-semibold text-paper transition hover:border-paper/50">Bekijk Plus</a>
+                    <a href="{{ route('plus.index') }}" class="rounded-full border border-paper/25 px-8 py-4 text-sm font-semibold text-paper transition hover:border-paper/50">Bekijk Plus</a>
                 @endunless
             @else
-                <a href="{{ route('register') }}" class="rounded-full bg-paper px-7 py-3.5 text-sm font-semibold text-ink transition hover:opacity-90">Account aanmaken</a>
-                <a href="{{ route('login') }}" class="rounded-full border border-paper/25 px-7 py-3.5 text-sm font-semibold text-paper transition hover:border-paper/50">Ik heb al een account</a>
+                <a href="{{ route('register') }}" class="rounded-full bg-paper px-8 py-4 text-sm font-semibold text-ink transition hover:opacity-90">Account aanmaken</a>
+                <a href="{{ route('login') }}" class="rounded-full border border-paper/25 px-8 py-4 text-sm font-semibold text-paper transition hover:border-paper/50">Ik heb al een account</a>
             @endauth
         </div>
         <p class="mt-8 text-xs text-paper/40">Geen medisch advies — begeleiding bij de kuur van praktijk ARDRA. Bij klachten: overleg met uw behandelaar.</p>
