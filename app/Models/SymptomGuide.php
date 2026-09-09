@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Support\WithoutEmDashes;
+
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -19,6 +21,8 @@ use Illuminate\Database\Eloquent\Model;
 ])]
 class SymptomGuide extends Model
 {
+    use WithoutEmDashes;
+
     public function getRouteKeyName(): string
     {
         return 'slug';

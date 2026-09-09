@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Support\WithoutEmDashes;
+
 use App\Enums\ProductStatus;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Builder;
@@ -12,6 +14,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 #[Fillable(['category_id', 'slug', 'name', 'status', 'why', 'conditions', 'notes', 'aliases', 'access'])]
 class Product extends Model
 {
+    use WithoutEmDashes;
+
     protected function casts(): array
     {
         return [

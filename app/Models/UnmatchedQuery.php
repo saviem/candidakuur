@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Support\WithoutEmDashes;
+
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -10,6 +12,8 @@ use Illuminate\Support\Str;
 #[Fillable(['query_key', 'query', 'count', 'first_seen_at', 'last_seen_at', 'converted_product_id'])]
 class UnmatchedQuery extends Model
 {
+    use WithoutEmDashes;
+
     protected function casts(): array
     {
         return [

@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Support\WithoutEmDashes;
+
 use App\Enums\ProductStatus;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
@@ -10,6 +12,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 #[Fillable(['slug', 'name', 'short', 'intro', 'is_main', 'sort_order'])]
 class Allergy extends Model
 {
+    use WithoutEmDashes;
+
     protected function casts(): array
     {
         return [
