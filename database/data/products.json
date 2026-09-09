@@ -134,7 +134,7 @@
     "name": "Witte rijst",
     "category": "brood-en-granen",
     "status": "beperkt",
-    "why": "Witte rijst bevat ook gluten, maar laag, en wordt tijdens het dieet meestal goed verteerd. Als rijstgerecht: kies pandan, basmati, surinaams, wild of rood — geen zilvervlies of kleefrijst.",
+    "why": "Witte rijst bevat ook gluten, maar laag, en wordt tijdens het dieet meestal goed verteerd. Als rijstgerecht: kies pandan, basmati, surinaams, wild of rood, geen zilvervlies of kleefrijst.",
     "aliases": [
       "rijst"
     ],
@@ -208,7 +208,7 @@
     "name": "Koeken",
     "category": "brood-en-granen",
     "status": "niet_toegestaan",
-    "why": "Suiker, witmeel en vaak boter of plantaardige transvetten. Past niet bij een suikervrij candidadieet.",
+    "why": "Suiker, witmeel en vaak boter of plantaardige transvetten. Past niet bij een suikervrije candidakuur.",
     "aliases": [
       "koek",
       "koekjes",
@@ -616,7 +616,7 @@
     "aliases": [
       "amandelpasta"
     ],
-    "conditions": "In de olielijst toegestaan; noten blijven gevoelig voor schimmeltoxinen — gebruik spaarzaam.",
+    "conditions": "In de olielijst toegestaan; noten blijven gevoelig voor schimmeltoxinen, gebruik spaarzaam.",
     "access": "public"
   },
   {
@@ -956,7 +956,7 @@
     "name": "Quorn",
     "category": "vlees-en-gevogelte",
     "status": "niet_toegestaan",
-    "why": "Vleesvervanger van schimmeleiwit. Schimmels horen niet bij een anticandidadieet.",
+    "why": "Vleesvervanger van schimmeleiwit. Schimmels horen niet bij de candidakuur.",
     "aliases": [
       "schimmeleiwit"
     ],
@@ -1589,7 +1589,7 @@
     "name": "Broccoli",
     "category": "groenten",
     "status": "toegestaan",
-    "why": "Toegestaan. Rijke calciumbron — een antwoord op ‘hoe kom ik aan mijn kalk zonder melk’.",
+    "why": "Toegestaan. Rijke calciumbron, een antwoord op ‘hoe kom ik aan mijn kalk zonder melk’.",
     "aliases": [],
     "access": "public"
   },
@@ -1697,7 +1697,7 @@
     "name": "Champignons en paddenstoelen",
     "category": "groenten",
     "status": "niet_toegestaan",
-    "why": "Schimmels. Niet tijdens een anticandidadieet.",
+    "why": "Schimmels. Niet tijdens de candidakuur.",
     "aliases": [
       "paddenstoelen",
       "shiitake",
@@ -2331,7 +2331,7 @@
     "aliases": [
       "soya"
     ],
-    "conditions": "Brontekst is niet eenduidig. Liever groentebouillon zonder gist of een glutenvrije, ongezoete variant — of weglaten bij glutengevoeligheid.",
+    "conditions": "Brontekst is niet eenduidig. Liever groentebouillon zonder gist of een glutenvrije, ongezoete variant, of weglaten bij glutengevoeligheid.",
     "access": "public"
   },
   {
@@ -2626,7 +2626,7 @@
     "name": "Matses",
     "category": "snacks",
     "status": "toegestaan",
-    "why": "Ongezuurd. Let op: tarwe — bij glutenallergie laten staan.",
+    "why": "Ongezuurd. Let op: tarwe, bij glutenallergie laten staan.",
     "aliases": [
       "matzes",
       "matse"

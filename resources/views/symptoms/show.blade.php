@@ -37,7 +37,7 @@
         <div class="mt-10 rounded-[24px] border border-line bg-card p-6">
             <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Teaser</p>
             <p class="mt-3 text-sm leading-relaxed text-muted">
-                De volledige uitleg — wat normaal is, wat je zelf kunt doen, en wanneer je belt — zit in Candidakuur Plus.
+                De volledige uitleg, wat normaal is, wat je zelf kunt doen, en wanneer je belt, zit in Candidakuur Plus.
             </p>
             <a href="{{ route('plus.index') }}" class="mt-5 inline-flex rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition hover:opacity-90">
                 Bekijk Plus

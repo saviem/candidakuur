@@ -10,14 +10,14 @@
     "slug": "broodbeleg",
     "name": "Broodbeleg",
     "short": "Hartig, zonder suiker",
-    "intro": "Beleg is tijdens het dieet het moeilijkst. Zoete producten vallen af omdat suiker candida voedt. Hartig, zelfgemaakt of puur notenpasta (in mate) past wel. Er zit altijd een restje suiker in producten; maak daar geen halszaak van — het dieet plus nystatine vangt dat op.",
+    "intro": "Beleg is tijdens het dieet het moeilijkst. Zoete producten vallen af omdat suiker candida voedt. Hartig, zelfgemaakt of puur notenpasta (in mate) past wel. Er zit altijd een restje suiker in producten; maak daar geen halszaak van, het dieet plus nystatine vangt dat op.",
     "access": "public"
   },
   {
     "slug": "zuivel",
     "name": "Zuivel",
     "short": "Verslijming en calcium",
-    "intro": "Melk is vast voedsel: vet en eiwit moeten eerst verteerd worden. Calcium in melk is gebonden aan fosfor en daardoor lastig opneembaar. Melkproducten verslijmen; die slijmlaag belemmert opname van goede stoffen en IGA in de slijmvliezen. Bij een gemeten melkintolerantie drie weken geen zuivel. Gefermenteerde melk is beter, maar pas ná het dieet. Calcium haal je uit broccoli, soja, rijst en granen — we krijgen vaak té veel kalk, terwijl magnesium belangrijker is.",
+    "intro": "Melk is vast voedsel: vet en eiwit moeten eerst verteerd worden. Calcium in melk is gebonden aan fosfor en daardoor lastig opneembaar. Melkproducten verslijmen; die slijmlaag belemmert opname van goede stoffen en IGA in de slijmvliezen. Bij een gemeten melkintolerantie drie weken geen zuivel. Gefermenteerde melk is beter, maar pas ná het dieet. Calcium haal je uit broccoli, soja, rijst en granen, we krijgen vaak té veel kalk, terwijl magnesium belangrijker is.",
     "access": "public"
   },
   {
@@ -80,7 +80,7 @@
     "slug": "specerijen",
     "name": "Specerijen en smaak",
     "short": "Kruiden zonder gist",
-    "intro": "Verse en gedroogde keukenkruiden zoals tijm, kurkuma en knoflook mogen. Azijn, mosterd, kerrie, kaneel, gember, mayonaise en zoete sojasauzen niet. Groentebouillon zonder gist. In het voorbeeldmenu komt shoyu voor, terwijl tamari, ketjap en zoete sojasaus in de verbodslijst staan — daarom voorwaardelijk.",
+    "intro": "Verse en gedroogde keukenkruiden zoals tijm, kurkuma en knoflook mogen. Azijn, mosterd, kerrie, kaneel, gember, mayonaise en zoete sojasauzen niet. Groentebouillon zonder gist. In het voorbeeldmenu komt shoyu voor, terwijl tamari, ketjap en zoete sojasaus in de verbodslijst staan, daarom voorwaardelijk.",
     "access": "public"
   },
   {
@@ -108,7 +108,7 @@
     "slug": "fruit",
     "name": "Fruit",
     "short": "Niet tijdens de kuur",
-    "intro": "Geen fruit tijdens de drie weken, ook geen avocado, krenten of rozijnen: fructose voedt candida. In het roulatiedieet daarna fruit wisselen (bijvoorbeeld appel, banaan, kiwi), maximaal twee soorten per dag, het liefst tussen 14.00 en 16.00 uur. Niet voor of na de maaltijd — dat werkt gisting in de hand. Sinaasappel en jus d’orange extra voorzichtig.",
+    "intro": "Geen fruit tijdens de drie weken, ook geen avocado, krenten of rozijnen: fructose voedt candida. In het roulatiedieet daarna fruit wisselen (bijvoorbeeld appel, banaan, kiwi), maximaal twee soorten per dag, het liefst tussen 14.00 en 16.00 uur. Niet voor of na de maaltijd, dat werkt gisting in de hand. Sinaasappel en jus d’orange extra voorzichtig.",
     "access": "public"
   },
   {

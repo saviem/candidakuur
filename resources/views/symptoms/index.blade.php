@@ -6,7 +6,7 @@
 <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
     <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Dieet &amp; bijwerkingen</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Wat nu?</h1>
-    <p class="mt-4 text-muted">Korte kaarten bij veelvoorkomende klachten tijdens de kuur. Geen diagnose — wel praktische houvast.</p>
+    <p class="mt-4 text-muted">Korte kaarten bij veelvoorkomende klachten tijdens de kuur. Geen diagnose, wel praktische houvast.</p>
 
     <p class="mt-6 rounded-[20px] border border-line bg-limited-soft px-4 py-3 text-sm text-limited">
         Medische disclaimer: dit is voedingsadvies van Candidakuur / praktijk ARDRA, geen vervanging van een arts. Bij rode vlaggen of twijfel: bel de praktijk of huisarts.

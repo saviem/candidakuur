@@ -2,7 +2,7 @@
     "id": "/",
     "name": "Candidakuur",
     "short_name": "Candidakuur",
-    "description": "Zoek wat je mag eten tijdens het anti-candidadieet van praktijk ARDRA.",
+    "description": "Zoek wat je mag eten tijdens de candidakuur van praktijk ARDRA.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

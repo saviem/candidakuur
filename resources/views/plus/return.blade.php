@@ -11,7 +11,7 @@
         @if ($isPlus)
             Plus is actief.
         @else
-            De bevestiging via Mollie kan even duren — vernieuw deze pagina zo nodig.
+            De bevestiging via Mollie kan even duren, vernieuw deze pagina zo nodig.
         @endif
     </p>
     <a href="{{ route('kennisbank') }}" class="mt-8 inline-flex rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper">Naar de kennisbank</a>

@@ -7,7 +7,7 @@
     <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">AI-assistent</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Wat ligt er in je koelkast?</h1>
     <p class="mt-6 max-w-2xl text-sm leading-relaxed text-muted">
-        Noem twee producten. De assistent maakt daar een dagmenu van dat past bij het anti-candidadieet, met de kennisbank als leidraad.
+        Noem twee producten. De assistent maakt daar een dagmenu van dat past bij de candidakuur, met de kennisbank als leidraad.
     </p>
 
     @if (! $configured)

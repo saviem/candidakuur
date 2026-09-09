@@ -7,7 +7,7 @@
     <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Candidakuur</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Plus</h1>
     <p class="mt-4 text-muted">
-        Onbeperkte assistent, dagboek, en volledige Wat nu?-kaarten op candidakuur.nl. Donaties houden de kennisbank beschikbaar — die ontgrendelen Plus niet.
+        Onbeperkte assistent, dagboek, en volledige Wat nu?-kaarten op candidakuur.nl. Donaties houden de kennisbank beschikbaar, die ontgrendelen Plus niet.
     </p>
 
     @if (session('status'))

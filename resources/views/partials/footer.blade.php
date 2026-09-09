@@ -4,7 +4,7 @@
             <p class="text-sm font-semibold tracking-tight">Candidakuur</p>
             <p class="mt-1 text-xs uppercase tracking-[0.16em] text-muted">candidakuur.nl · praktijk ARDRA</p>
             <p class="mt-4 max-w-sm text-sm leading-relaxed text-muted">
-                Doorzoekbare kennisbank bij het anti-candidadieet van HP. H.A. Stormer. Praktijk voor Biologische Geneeswijzen, Haarlem.
+                Doorzoekbare kennisbank bij de candidakuur van HP. H.A. Stormer. Praktijk voor Biologische Geneeswijzen, Haarlem.
             </p>
         </div>
         <div class="text-sm text-muted">

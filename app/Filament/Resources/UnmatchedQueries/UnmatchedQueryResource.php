@@ -65,7 +65,7 @@ class UnmatchedQueryResource extends Resource
                 TextColumn::make('query')->label('Zoekterm')->searchable()->sortable(),
                 TextColumn::make('count')->label('Aantal')->sortable(),
                 TextColumn::make('last_seen_at')->label('Laatst')->since()->sortable(),
-                TextColumn::make('convertedProduct.name')->label('Omgezet naar')->placeholder('—'),
+                TextColumn::make('convertedProduct.name')->label('Omgezet naar')->placeholder('-'),
             ])
             ->defaultSort('count', 'desc')
             ->filters([

@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6" x-data="{ week: 1 }">
-    <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Anti-candidadieet</p>
+    <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Candidakuur</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Menu voor 3 weken</h1>
     <p class="mt-6 max-w-2xl text-sm leading-relaxed text-muted">
         Voorbeeldmenu van iemand die de kuur volgde. Week 3 is een herhaling van week 1. Kook vers; eet 4 tot 5 kleine porties.

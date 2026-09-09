@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@hasSection('title')@yield('title') — @endif{{ config('app.name') }}</title>
-    <meta name="description" content="@yield('description', 'Doorzoekbare kennisbank: wat mag je wel en niet eten tijdens het anti-candidadieet van praktijk ARDRA.')">
+    <title>@hasSection('title')@yield('title') · @endif{{ config('app.name') }}</title>
+    <meta name="description" content="@yield('description', 'Doorzoekbare kennisbank: wat mag je wel en niet eten tijdens de candidakuur van praktijk ARDRA.')">
     <meta name="theme-color" content="#0F1714">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">

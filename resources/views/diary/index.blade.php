@@ -6,7 +6,7 @@
 <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
     <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Plus</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Dagboek</h1>
-    <p class="mt-4 text-muted">Houd stemming, energie en klachten bij. Zo zie je patronen — en krijgen Wat nu?-tips meer betekenis.</p>
+    <p class="mt-4 text-muted">Houd stemming, energie en klachten bij. Zo zie je patronen, en krijgen Wat nu?-tips meer betekenis.</p>
 
     @if (session('status'))
         <p class="mt-6 rounded-[20px] border border-line bg-accent-soft px-4 py-3 text-sm text-accent">{{ session('status') }}</p>
@@ -28,7 +28,7 @@
                     <p class="mt-2 text-[11px] text-muted">🙂 {{ $entry->mood }}/5</p>
                     <p class="text-[11px] text-muted">⚡ {{ $entry->energy }}/5</p>
                 @else
-                    <p class="mt-2 text-[11px] text-muted/60">—</p>
+                    <p class="mt-2 text-[11px] text-muted/60">-</p>
                 @endif
             </div>
         @endfor
@@ -37,7 +37,7 @@
     @if ($suggestions->isNotEmpty())
         <section class="mt-10 rounded-[24px] border border-line bg-card p-5">
             <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Suggesties</p>
-            <h2 class="mt-2 text-lg font-semibold tracking-tight">Tags die terugkomen — bekijk Wat nu?</h2>
+            <h2 class="mt-2 text-lg font-semibold tracking-tight">Tags die terugkomen, bekijk Wat nu?</h2>
             <ul class="mt-4 space-y-2">
                 @foreach ($suggestions as $guide)
                     <li>
