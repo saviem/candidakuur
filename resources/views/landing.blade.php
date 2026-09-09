@@ -113,7 +113,7 @@
         <div class="rounded-[28px] border border-line bg-ink p-8 text-paper sm:p-10">
             <p class="text-xs font-medium uppercase tracking-[0.16em] text-paper/45">Uit de praktijk</p>
             <p class="mt-5 text-2xl font-semibold tracking-tight sm:text-3xl leading-snug">
-                “De kuur is zwaar, maar helder. Als je weet wat er mag, wordt volhouden plots haalbaar.”
+                “De kuur is vooral even inkomen. Als je weet wat er mag — zeker met de app — is het goed te doen.”
             </p>
             <p class="mt-8 text-sm leading-relaxed text-paper/65">
                 Candidakuur is de digitale kennisbank bij de candidakuur van HP. H.A. Stormer —
@@ -135,8 +135,8 @@
                 <p class="text-xs font-medium uppercase tracking-[0.2em] text-accent">Persoonlijke ervaring</p>
                 <h2 class="mt-5 text-3xl font-semibold tracking-tight sm:text-4xl">Ik doe de kuur elk jaar opnieuw — en het blijft goed.</h2>
                 <p class="mt-5 text-base leading-relaxed text-muted">
-                    Ik, Saviem, doe de candidakuur elk jaar opnieuw. Niet eenmalig, maar als terugkerende reset — met hetzelfde bord en dezelfde vragen als u.
-                    De duidelijkheid over wat mag en wat niet maakt het verschil: ik eet rustiger, heb minder twijfel in de winkel, en merk dat mijn energie weer stabieler wordt.
+                    Ik, Saviem, doe de candidakuur elk jaar opnieuw. Niet eenmalig, maar als terugkerende reset. Even inkomen, en daarna — zeker met de app — goed te doen.
+                    De duidelijkheid over wat mag en wat niet maakt het verschil: minder twijfel in de winkel, rustiger eten, stabielere energie.
                 </p>
                 <p class="mt-4 text-base leading-relaxed text-muted">
                     Daarom bouwde ik Candidakuur: zodat u diezelfde helderheid heeft — elke dag, in uw zak.
@@ -144,7 +144,7 @@
             </div>
             <figure class="rounded-[28px] border border-line bg-card p-8 shadow-[0_20px_60px_-40px_rgba(15,23,20,0.45)]">
                 <blockquote class="text-lg font-medium leading-relaxed tracking-tight text-ink">
-                    “Ik doe de kuur elk jaar opnieuw. Het is intens, maar het werkt voor mij — vooral omdat ik precies weet wat er wél mag.”
+                    “Ik doe de kuur elk jaar opnieuw. Even inkomen, en met de app is het goed te doen — vooral omdat ik precies weet wat er wél mag.”
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-3">
                     <span class="flex h-11 w-11 items-center justify-center rounded-full bg-ink text-sm font-semibold text-paper">SJ</span>
@@ -173,7 +173,7 @@
             // VOORBEELD — vervang door echte quotes
             $examples = [
                 [
-                    'quote' => 'Na twee weken was mijn suikertrek echt minder. Het lastigste was beginnen — daarna gaf het menu houvast.',
+                    'quote' => 'Na twee weken was mijn suikertrek echt minder. Even inkomen, daarna gaf het menu houvast — met de app was het goed te doen.',
                     'name' => 'Marieke',
                     'meta' => 'Haarlem · voorbeeld',
                 ],
@@ -183,7 +183,7 @@
                     'meta' => 'Amsterdam · voorbeeld',
                 ],
                 [
-                    'quote' => 'De moeheid zat diep. De kuur was zwaar, maar ik voelde me tegen week drie helderder en rustiger in mijn buik.',
+                    'quote' => 'De moeheid zat diep. Tegen week drie voelde ik me helderder en rustiger in mijn buik — eenmaal erin was het goed te doen.',
                     'name' => 'Linda',
                     'meta' => 'Noord-Holland · voorbeeld',
                 ],
