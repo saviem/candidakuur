@@ -175,7 +175,7 @@
   {
     "slug": "contact",
     "title": "Contact en eigenaar",
-    "summary": "Praktijk ARDRA, HP. H.A. Stormer, Haarlem.",
+    "summary": "Praktijk ARDRA, HP. H.A. Stormer, Haarlem. App/site: hallo@candidakuur.nl.",
     "access": "public",
     "sections": [
       {
@@ -184,6 +184,10 @@
       {
         "heading": "Praktijk",
         "body": "Houtmanpad 8 B 3, 2015 EW Haarlem. Tel. 023-5441122 / 06-12022231. E-mail pvbg@ardra.nl. Website www.ardra.nl. Tijdens de kuur is het wijs wekelijks een berichtje te sturen, zodat duiding van reacties mogelijk is."
+      },
+      {
+        "heading": "Candidakuur",
+        "body": "Voor vragen over de app en website: hallo@candidakuur.nl."
       }
     ]
   }

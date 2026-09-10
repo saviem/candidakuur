@@ -6,6 +6,9 @@
             <p class="mt-4 max-w-sm text-sm leading-relaxed text-muted">
                 Doorzoekbare kennisbank bij de candidakuur van HP. H.A. Stormer. Praktijk voor Biologische Geneeswijzen, Haarlem.
             </p>
+            <p class="mt-4 text-sm text-muted">
+                <a class="hover:text-accent" href="mailto:hallo@candidakuur.nl">hallo@candidakuur.nl</a>
+            </p>
         </div>
         <div class="text-sm text-muted">
             <p class="font-medium text-ink">Praktijk</p>
@@ -34,5 +37,10 @@
                 @endauth
             </p>
         </div>
+    </div>
+    <div class="border-t border-line">
+        <p class="mx-auto max-w-6xl px-4 py-4 text-xs text-muted sm:px-6">
+            Candidakuur.nl is onderdeel van PureOrange BV
+        </p>
     </div>
 </footer>

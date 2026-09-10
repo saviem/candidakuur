@@ -121,6 +121,7 @@
             <div class="mt-8 flex flex-wrap gap-4 text-sm">
                 <a class="text-paper underline decoration-paper/30 underline-offset-4 hover:decoration-paper" href="tel:+31235441122">023 544 1122</a>
                 <a class="text-paper underline decoration-paper/30 underline-offset-4 hover:decoration-paper" href="mailto:pvbg@ardra.nl">pvbg@ardra.nl</a>
+                <a class="text-paper underline decoration-paper/30 underline-offset-4 hover:decoration-paper" href="mailto:hallo@candidakuur.nl">hallo@candidakuur.nl</a>
             </div>
         </div>
     </div>
