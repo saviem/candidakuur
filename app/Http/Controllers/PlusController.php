@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\PlusActivatedMail;
 use App\Models\Payment;
 use App\Services\CouponRedeemer;
 use App\Services\MollieClient;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\View\View;
@@ -32,8 +34,10 @@ class PlusController extends Controller
 
         $coupon = $redeemer->redeem($request->user(), $validated['code']);
 
+        $route = $request->user()->isPlus() ? 'account.edit' : 'plus.index';
+
         return redirect()
-            ->route('plus.index')
+            ->route($route)
             ->with('status', 'Coupon geactiveerd: '.$coupon->days.' dagen Plus.');
     }
 
@@ -145,14 +149,26 @@ class PlusController extends Controller
         return redirect()->away($checkout);
     }
 
-    public function returnPlus(Payment $payment): View|RedirectResponse
+    public function returnPlus(Payment $payment, MollieClient $mollie): View|RedirectResponse
     {
         abort_unless($payment->type === 'plus', 404);
         abort_unless($payment->user_id === auth()->id(), 403);
 
+        // Catch up if the browser returns before the webhook finishes.
+        if ($mollie->configured() && is_string($payment->mollie_id) && $payment->mollie_id !== '') {
+            try {
+                $this->webhook(Request::create('/', 'POST', ['id' => $payment->mollie_id]), $mollie);
+            } catch (\Throwable) {
+                // Keep showing the page even if Mollie is briefly unreachable.
+            }
+        }
+
+        $user = auth()->user()?->fresh();
+
         return view('plus.return', [
             'payment' => $payment->fresh(),
-            'isPlus' => auth()->user()?->isPlus() ?? false,
+            'isPlus' => $user?->isPlus() ?? false,
+            'plusUntil' => $user?->plus_until,
         ]);
     }
 
@@ -202,9 +218,15 @@ class PlusController extends Controller
                 $base = $payment->user->plus_until && $payment->user->plus_until->isFuture()
                     ? $payment->user->plus_until
                     : now();
+                $plusUntil = $base->copy()->addDays($days);
                 $payment->user->forceFill([
-                    'plus_until' => $base->copy()->addDays($days),
+                    'plus_until' => $plusUntil,
                 ])->save();
+
+                Mail::to($payment->user->email)->send(new PlusActivatedMail(
+                    $payment->user->fresh(),
+                    $plusUntil,
+                ));
             }
         } else {
             $payment->save();

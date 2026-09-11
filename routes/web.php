@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AccountController;
 use App\Http\Controllers\AssistantController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DiaryController;
@@ -49,11 +50,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/allergieen', [KnowledgeController::class, 'allergies'])->name('allergies.index');
     Route::get('/allergieen/{allergy}', [KnowledgeController::class, 'allergy'])->name('allergies.show');
     Route::get('/product/{product}', [KnowledgeController::class, 'product'])->name('products.show');
-    Route::get('/menu', [KnowledgeController::class, 'menu'])->name('menu');
     Route::get('/assistent', [AssistantController::class, 'create'])->name('assistant');
     Route::post('/assistent', [AssistantController::class, 'store'])->middleware('throttle:10,1')->name('assistant.store');
     Route::get('/gids', [KnowledgeController::class, 'guides'])->name('guides.index');
+    Route::get('/gids/menu', [KnowledgeController::class, 'menu'])->name('menu');
+    Route::redirect('/menu', '/gids/menu');
     Route::get('/gids/{guide}', [KnowledgeController::class, 'guide'])->name('guides.show');
+
+    Route::get('/mijn-account', [AccountController::class, 'edit'])->name('account.edit');
+    Route::put('/mijn-account', [AccountController::class, 'update'])->middleware('throttle:10,1')->name('account.update');
+    Route::delete('/mijn-account', [AccountController::class, 'destroy'])->middleware('throttle:5,1')->name('account.destroy');
 
     Route::get('/wat-nu', [SymptomGuideController::class, 'index'])->name('symptoms.index');
     Route::get('/wat-nu/{symptom}', [SymptomGuideController::class, 'show'])->name('symptoms.show');
@@ -65,8 +71,9 @@ Route::middleware('auth')->group(function () {
     Route::post('/doneren', [PlusController::class, 'checkoutDonate'])->middleware('throttle:10,1')->name('donate.checkout');
     Route::get('/doneren/bedankt/{payment}', [PlusController::class, 'thanksDonate'])->name('donate.thanks');
 
+    Route::get('/dagboek', [DiaryController::class, 'index'])->name('diary.index');
+
     Route::middleware('plus')->group(function () {
-        Route::get('/dagboek', [DiaryController::class, 'index'])->name('diary.index');
         Route::post('/dagboek', [DiaryController::class, 'store'])->name('diary.store');
         Route::put('/dagboek/{diary}', [DiaryController::class, 'update'])->name('diary.update');
         Route::delete('/dagboek/{diary}', [DiaryController::class, 'destroy'])->name('diary.destroy');

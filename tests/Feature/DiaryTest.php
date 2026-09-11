@@ -25,7 +25,7 @@ class DiaryTest extends TestCase
                 'note' => 'Redelijk oké',
                 'meals' => 'Omelet',
             ])
-            ->assertRedirect(route('diary.index'));
+            ->assertRedirect();
 
         $this->assertDatabaseHas('diary_entries', [
             'user_id' => $user->id,
@@ -114,5 +114,57 @@ class DiaryTest extends TestCase
 
         $this->assertSame(1, DiaryEntry::query()->where('user_id', $user->id)->count());
         $this->assertSame(5, DiaryEntry::query()->where('user_id', $user->id)->value('mood'));
+    }
+
+    public function test_plus_user_can_fill_in_a_past_day(): void
+    {
+        $user = User::factory()->plus()->create();
+        $yesterday = now()->subDay()->toDateString();
+
+        $this->actingAs($user)
+            ->post(route('diary.store'), [
+                'entry_date' => $yesterday,
+                'mood' => 2,
+                'energy' => 4,
+                'note' => 'Gisteren',
+            ])
+            ->assertRedirect();
+
+        $this->assertDatabaseHas('diary_entries', [
+            'user_id' => $user->id,
+            'mood' => 2,
+            'energy' => 4,
+        ]);
+        $this->assertSame(
+            $yesterday,
+            DiaryEntry::query()->where('user_id', $user->id)->value('entry_date')->toDateString()
+        );
+    }
+
+    public function test_diary_index_can_open_a_past_day_form(): void
+    {
+        $user = User::factory()->plus()->create();
+        $yesterday = now()->subDay()->toDateString();
+
+        $this->actingAs($user)
+            ->get(route('diary.index', ['date' => $yesterday]))
+            ->assertOk()
+            ->assertSee('name="mood"', false)
+            ->assertSee('type="radio"', false)
+            ->assertSee('Gisteren')
+            ->assertDontSee('<select name="mood"', false);
+    }
+
+    public function test_future_entry_date_is_rejected(): void
+    {
+        $user = User::factory()->plus()->create();
+
+        $this->actingAs($user)
+            ->post(route('diary.store'), [
+                'entry_date' => now()->addDay()->toDateString(),
+                'mood' => 3,
+                'energy' => 3,
+            ])
+            ->assertSessionHasErrors('entry_date');
     }
 }

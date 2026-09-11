@@ -9,7 +9,7 @@ class DiaryEntryPolicy
 {
     public function viewAny(User $user): bool
     {
-        return $user->isPlus();
+        return true;
     }
 
     public function view(User $user, DiaryEntry $diaryEntry): bool

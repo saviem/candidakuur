@@ -2,6 +2,8 @@
 
 namespace Tests\Feature;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\PlusActivatedMail;
 use App\Models\Coupon;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -19,6 +21,8 @@ class CouponRedeemTest extends TestCase
 
     public function test_valid_coupon_unlocks_plus(): void
     {
+        Mail::fake();
+
         $user = User::factory()->create(['plus_until' => null]);
         $coupon = Coupon::factory()->create([
             'code' => 'PROBEER7',
@@ -27,7 +31,7 @@ class CouponRedeemTest extends TestCase
 
         $this->actingAs($user)
             ->post(route('plus.coupon'), ['code' => 'probeer7'])
-            ->assertRedirect(route('plus.index'))
+            ->assertRedirect(route('account.edit'))
             ->assertSessionHas('status');
 
         $user->refresh();
@@ -36,6 +40,9 @@ class CouponRedeemTest extends TestCase
         $this->assertTrue($user->isPlus());
         $this->assertTrue($user->plus_until->greaterThan(now()->addDays(5)));
         $this->assertSame(1, $coupon->uses_count);
+        Mail::assertSent(PlusActivatedMail::class, function (PlusActivatedMail $mail) use ($user): bool {
+            return $mail->hasTo($user->email);
+        });
         $this->assertDatabaseHas('coupon_redemptions', [
             'coupon_id' => $coupon->id,
             'user_id' => $user->id,
@@ -55,7 +62,7 @@ class CouponRedeemTest extends TestCase
 
         $this->actingAs($user)
             ->post(route('plus.coupon'), ['code' => 'EXTRA7'])
-            ->assertRedirect(route('plus.index'));
+            ->assertRedirect(route('account.edit'));
 
         $user->refresh();
 
@@ -69,7 +76,7 @@ class CouponRedeemTest extends TestCase
 
         $this->actingAs($user)
             ->post(route('plus.coupon'), ['code' => 'EENMALIG'])
-            ->assertRedirect(route('plus.index'));
+            ->assertRedirect(route('account.edit'));
 
         $this->actingAs($user)
             ->from(route('plus.index'))

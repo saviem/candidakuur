@@ -16,8 +16,33 @@ class DiaryController extends Controller
         $this->authorize('viewAny', DiaryEntry::class);
 
         $user = $request->user();
-        $weekStart = Carbon::parse((string) $request->string('week', now()->startOfWeek()->toDateString()))->startOfWeek();
+        $today = now()->startOfDay();
+
+        if ($request->filled('date')) {
+            $selectedDate = Carbon::parse((string) $request->string('date'))->startOfDay();
+        } elseif ($request->filled('week')) {
+            $weekStart = Carbon::parse((string) $request->string('week'))->startOfWeek();
+            $weekEnd = $weekStart->copy()->endOfWeek();
+            $selectedDate = $today->betweenIncluded($weekStart, $weekEnd)
+                ? $today->copy()
+                : $weekStart->copy();
+        } else {
+            $selectedDate = $today->copy();
+        }
+
+        if ($selectedDate->gt($today)) {
+            $selectedDate = $today->copy();
+        }
+
+        $weekStart = $request->filled('week') && ! $request->filled('date')
+            ? Carbon::parse((string) $request->string('week'))->startOfWeek()
+            : $selectedDate->copy()->startOfWeek();
         $weekEnd = $weekStart->copy()->endOfWeek();
+
+        if ($selectedDate->lt($weekStart) || $selectedDate->gt($weekEnd)) {
+            $weekStart = $selectedDate->copy()->startOfWeek();
+            $weekEnd = $weekStart->copy()->endOfWeek();
+        }
 
         $entries = DiaryEntry::query()
             ->where('user_id', $user->id)
@@ -51,13 +76,18 @@ class DiaryController extends Controller
                 ->values();
         }
 
+        $selectedKey = $selectedDate->toDateString();
+        $entry = $entries->get($selectedKey);
+
         return view('diary.index', [
             'weekStart' => $weekStart,
             'weekEnd' => $weekEnd,
             'entries' => $entries,
             'suggestions' => $suggestions,
-            'today' => $entries->get(now()->toDateString()),
+            'selectedDate' => $selectedDate,
+            'entry' => $entry,
             'symptomOptions' => $this->symptomOptions(),
+            'isPlus' => $user->isPlus(),
         ]);
     }
 
@@ -80,30 +110,36 @@ class DiaryController extends Controller
             DiaryEntry::query()->create($data);
         }
 
-        return redirect()
-            ->route('diary.index')
-            ->with('status', 'Dagboek bijgewerkt.');
+        return $this->redirectToDate($data['entry_date'], 'Dagboek bijgewerkt.');
     }
 
     public function update(Request $request, DiaryEntry $diary): RedirectResponse
     {
         $this->authorize('update', $diary);
 
-        $diary->update($this->validated($request));
+        $data = $this->validated($request);
+        $data['entry_date'] = Carbon::parse($data['entry_date'])->toDateString();
+        $diary->update($data);
 
-        return redirect()
-            ->route('diary.index')
-            ->with('status', 'Dagboek bijgewerkt.');
+        return $this->redirectToDate($data['entry_date'], 'Dagboek bijgewerkt.');
     }
 
     public function destroy(DiaryEntry $diary): RedirectResponse
     {
         $this->authorize('delete', $diary);
+        $date = $diary->entry_date->toDateString();
         $diary->delete();
 
+        return $this->redirectToDate($date, 'Notitie verwijderd.');
+    }
+
+    private function redirectToDate(string $date, string $status): RedirectResponse
+    {
+        $week = Carbon::parse($date)->startOfWeek()->toDateString();
+
         return redirect()
-            ->route('diary.index')
-            ->with('status', 'Notitie verwijderd.');
+            ->route('diary.index', ['date' => $date, 'week' => $week])
+            ->with('status', $status);
     }
 
     /**
@@ -112,7 +148,7 @@ class DiaryController extends Controller
     private function validated(Request $request): array
     {
         $validated = $request->validate([
-            'entry_date' => ['required', 'date'],
+            'entry_date' => ['required', 'date', 'before_or_equal:today'],
             'mood' => ['required', 'integer', 'min:1', 'max:5'],
             'energy' => ['required', 'integer', 'min:1', 'max:5'],
             'symptom_tags' => ['nullable', 'array'],

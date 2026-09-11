@@ -2,10 +2,12 @@
 
 namespace App\Services;
 
+use App\Mail\PlusActivatedMail;
 use App\Models\Coupon;
 use App\Models\CouponRedemption;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 
@@ -68,9 +70,12 @@ class CouponRedeemer
                 ? $user->plus_until
                 : now();
 
+            $plusUntil = $base->copy()->addDays($coupon->days);
             $user->forceFill([
-                'plus_until' => $base->copy()->addDays($coupon->days),
+                'plus_until' => $plusUntil,
             ])->save();
+
+            Mail::to($user->email)->send(new PlusActivatedMail($user->fresh(), $plusUntil));
 
             return $coupon->fresh();
         });

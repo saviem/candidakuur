@@ -2,11 +2,13 @@
 
 namespace Tests\Feature;
 
+use App\Mail\PlusActivatedMail;
 use App\Models\Payment;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Http;
 use Tests\TestCase;
+use Illuminate\Support\Facades\Mail;
 
 class MollieWebhookTest extends TestCase
 {
@@ -14,6 +16,8 @@ class MollieWebhookTest extends TestCase
 
     public function test_paid_plus_webhook_extends_plus_until(): void
     {
+        Mail::fake();
+
         $user = User::factory()->create(['plus_until' => null]);
 
         $payment = Payment::query()->create([
@@ -43,6 +47,9 @@ class MollieWebhookTest extends TestCase
 
         $this->assertSame('paid', $payment->status);
         $this->assertNotNull($payment->paid_at);
+        Mail::assertSent(PlusActivatedMail::class, function (PlusActivatedMail $mail) use ($user): bool {
+            return $mail->hasTo($user->email);
+        });
         $this->assertTrue($user->isPlus());
         $this->assertTrue($user->plus_until->greaterThan(now()->addDays(25)));
     }

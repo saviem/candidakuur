@@ -10,12 +10,22 @@ class PlusGateTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_free_users_are_redirected_from_diary(): void
+    public function test_free_users_can_view_diary_but_cannot_store(): void
     {
         $user = User::factory()->create();
 
         $this->actingAs($user)
             ->get(route('diary.index'))
+            ->assertOk()
+            ->assertSee('Dagboek')
+            ->assertSee('Invullen hoort bij Candidakuur Plus');
+
+        $this->actingAs($user)
+            ->post(route('diary.store'), [
+                'entry_date' => now()->toDateString(),
+                'mood' => 3,
+                'energy' => 3,
+            ])
             ->assertRedirect(route('plus.index'));
     }
 
@@ -26,7 +36,8 @@ class PlusGateTest extends TestCase
         $this->actingAs($user)
             ->get(route('diary.index'))
             ->assertOk()
-            ->assertSee('Dagboek');
+            ->assertSee('Dagboek')
+            ->assertDontSee('Invullen hoort bij Candidakuur Plus');
     }
 
     public function test_plus_page_shows_config_message_without_mollie_key(): void
