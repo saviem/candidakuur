@@ -13,7 +13,7 @@
                 @if ($section->heading)
                     <h2 class="text-lg font-semibold tracking-tight">{{ $section->heading }}</h2>
                 @endif
-                <p class="text-base leading-relaxed text-ink {{ $section->heading ? 'mt-3' : '' }}">{{ $section->body }}</p>
+                <p class="text-base leading-relaxed text-ink {{ $section->heading ? 'mt-3' : '' }}">{!! nl2br(e($section->body)) !!}</p>
             </section>
         @endforeach
     </div>

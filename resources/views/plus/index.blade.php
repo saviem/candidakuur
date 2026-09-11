@@ -50,6 +50,38 @@
     @endif
 
     <div class="mt-8 rounded-[24px] border border-line bg-card p-6">
+        <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Proberen</p>
+        <h2 class="mt-2 text-xl font-semibold tracking-tight">Couponcode</h2>
+        <p class="mt-2 text-sm text-muted">
+            @if ($isPlus)
+                Heb je een code? Die verlengt je Plus-periode.
+            @else
+                Heb je een code ontvangen? Vul die hier in om Plus gratis te activeren.
+            @endif
+        </p>
+
+        <form method="POST" action="{{ route('plus.coupon') }}" class="mt-5 flex flex-col gap-3 sm:flex-row sm:items-start">
+            @csrf
+            <div class="flex-1">
+                <label for="coupon-code" class="sr-only">Couponcode</label>
+                <input
+                    id="coupon-code"
+                    type="text"
+                    name="code"
+                    value="{{ old('code') }}"
+                    autocomplete="off"
+                    autocapitalize="characters"
+                    placeholder="bijv. PROBEER7"
+                    class="w-full rounded-full border border-line bg-paper px-4 py-2.5 text-sm tracking-wide uppercase text-ink placeholder:normal-case placeholder:tracking-normal placeholder:text-muted focus:border-ink/30 focus:outline-none"
+                >
+            </div>
+            <button type="submit" class="rounded-full border border-line bg-paper px-5 py-2.5 text-sm font-medium transition hover:border-ink/20">
+                Activeer code
+            </button>
+        </form>
+    </div>
+
+    <div class="mt-8 rounded-[24px] border border-line bg-card p-6">
         <p class="text-xs font-medium uppercase tracking-[0.16em] text-muted">Steun</p>
         <h2 class="mt-2 text-xl font-semibold tracking-tight">Doneer</h2>
         <p class="mt-2 text-sm text-muted">Een eenmalige bijdrage. Dit ontgrendelt Plus niet.</p>

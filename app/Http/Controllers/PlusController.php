@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Payment;
+use App\Services\CouponRedeemer;
 use App\Services\MollieClient;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -21,6 +22,19 @@ class PlusController extends Controller
             'plusPrice' => config('services.mollie.plus_amount'),
             'donateAmounts' => config('services.mollie.donate_amounts'),
         ]);
+    }
+
+    public function redeemCoupon(Request $request, CouponRedeemer $redeemer): RedirectResponse
+    {
+        $validated = $request->validate([
+            'code' => ['required', 'string', 'max:64'],
+        ]);
+
+        $coupon = $redeemer->redeem($request->user(), $validated['code']);
+
+        return redirect()
+            ->route('plus.index')
+            ->with('status', 'Coupon geactiveerd: '.$coupon->days.' dagen Plus.');
     }
 
     public function checkoutPlus(Request $request, MollieClient $mollie): RedirectResponse

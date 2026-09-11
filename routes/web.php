@@ -25,9 +25,12 @@ Route::get('/', LandingController::class)->name('home');
 
 Route::middleware('guest')->group(function () {
     Route::get('/inloggen', [AuthController::class, 'createLogin'])->name('login');
-    Route::post('/inloggen', [AuthController::class, 'login'])->middleware('throttle:5,1');
+    Route::post('/inloggen', [AuthController::class, 'sendLoginCode'])->middleware('throttle:5,1')->name('login.send');
     Route::get('/account', [AuthController::class, 'createRegister'])->name('register');
-    Route::post('/account', [AuthController::class, 'register'])->middleware('throttle:5,1');
+    Route::post('/account', [AuthController::class, 'sendRegisterCode'])->middleware('throttle:5,1')->name('register.send');
+    Route::get('/inloggen/code', [AuthController::class, 'createVerify'])->name('login.verify');
+    Route::post('/inloggen/code', [AuthController::class, 'verify'])->middleware('throttle:10,1')->name('login.verify.submit');
+    Route::post('/inloggen/code/opnieuw', [AuthController::class, 'resend'])->middleware('throttle:3,1')->name('login.resend');
 });
 
 Route::post('/uitloggen', [AuthController::class, 'logout'])->middleware('auth')->name('logout');
@@ -57,6 +60,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/plus', [PlusController::class, 'index'])->name('plus.index');
     Route::post('/plus/checkout', [PlusController::class, 'checkoutPlus'])->middleware('throttle:10,1')->name('plus.checkout');
+    Route::post('/plus/coupon', [PlusController::class, 'redeemCoupon'])->middleware('throttle:10,1')->name('plus.coupon');
     Route::get('/plus/terug/{payment}', [PlusController::class, 'returnPlus'])->name('plus.return');
     Route::post('/doneren', [PlusController::class, 'checkoutDonate'])->middleware('throttle:10,1')->name('donate.checkout');
     Route::get('/doneren/bedankt/{payment}', [PlusController::class, 'thanksDonate'])->name('donate.thanks');

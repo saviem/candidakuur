@@ -2,8 +2,12 @@
 
 namespace Tests\Feature;
 
+use App\Mail\LoginCodeMail;
+use App\Models\LoginCode;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
 
 class AuthenticationTest extends TestCase
@@ -39,27 +43,48 @@ class AuthenticationTest extends TestCase
         $this->get('/dagboek')->assertRedirect(route('login'));
     }
 
-    public function test_users_can_register_and_reach_the_knowledge_base(): void
+    public function test_users_can_register_with_email_code(): void
     {
+        Mail::fake();
+
         $this->get('/account')->assertOk();
 
         $this->post('/account', [
             '_token' => session()->token(),
             'name' => 'Anna',
             'email' => 'anna@example.com',
-            'password' => 'wachtwoord',
-            'password_confirmation' => 'wachtwoord',
+        ])->assertRedirect(route('login.verify'));
+
+        Mail::assertSent(LoginCodeMail::class, function (LoginCodeMail $mail): bool {
+            return $mail->hasTo('anna@example.com');
+        });
+
+        $code = '123456';
+        LoginCode::query()->where('email', 'anna@example.com')->update([
+            'code' => Hash::make($code),
+        ]);
+
+        $this->post('/inloggen/code', [
+            '_token' => session()->token(),
+            'code' => $code,
         ])->assertRedirect(route('kennisbank'));
 
         $this->assertAuthenticated();
         $this->get('/kennisbank')->assertOk();
-        $this->assertFalse(User::query()->where('email', 'anna@example.com')->value('is_admin'));
+        $this->assertDatabaseHas('users', [
+            'email' => 'anna@example.com',
+            'name' => 'Anna',
+            'is_admin' => false,
+        ]);
+        $this->assertNull(User::query()->where('email', 'anna@example.com')->value('password'));
     }
 
-    public function test_users_can_log_in(): void
+    public function test_users_can_log_in_with_email_code(): void
     {
+        Mail::fake();
+
         $user = User::factory()->create([
-            'password' => 'wachtwoord',
+            'email' => 'lisa@example.com',
         ]);
 
         $this->get('/inloggen')->assertOk();
@@ -67,7 +92,18 @@ class AuthenticationTest extends TestCase
         $this->post('/inloggen', [
             '_token' => session()->token(),
             'email' => $user->email,
-            'password' => 'wachtwoord',
+        ])->assertRedirect(route('login.verify'));
+
+        Mail::assertSent(LoginCodeMail::class);
+
+        $code = '654321';
+        LoginCode::query()->where('email', $user->email)->update([
+            'code' => Hash::make($code),
+        ]);
+
+        $this->post('/inloggen/code', [
+            '_token' => session()->token(),
+            'code' => $code,
         ])->assertRedirect(route('kennisbank'));
 
         $this->assertAuthenticatedAs($user);
